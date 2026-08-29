@@ -1,6 +1,9 @@
 import filmsJson from './films.json';
 import castJson from './cast.json';
 
+// Import exact CDN mapped images for every film
+import filmImageMap from '../../film_image_map.json';
+
 export interface CastMember {
   id: string;
   name: string;
@@ -44,59 +47,16 @@ const castMap = new Map<string, CastMember>(
   (castJson as CastMember[]).map(c => [c.id, c])
 );
 
-// Map film IDs to downloaded real poster image filenames if needed
-const imageOverrides: Record<string, { spotlight?: string; media?: string[] }> = {
-  'eetha': {
-    spotlight: 'daf93eb13a04.CU1O9lDy.jpeg',
-    media: ['ccdb67c1de18.eafRkhPC.jpeg', 'daf93eb13a04.CU1O9lDy.jpeg']
-  },
-  'prahaar-the-ujjwal-nikam-story': {
-    spotlight: '19b61dd2b244.C41wA0eS.jpeg',
-    media: ['b3d99d6d8017.BpaUke21.jpeg', '19b61dd2b244.C41wA0eS.jpeg']
-  },
-  'cocktail-2': {
-    spotlight: '26e7714088b4.ovn2qWA-.jpeg',
-    media: ['7c8d43ea53fc.DbrCnIEd.jpeg', '26e7714088b4.ovn2qWA-.jpeg']
-  },
-  'thamma': {
-    media: ['2CPtFVZWzThp9cjxUcpf2i2J6Qi.BrIzcl7C.jpeg', '6N9sUbnu1FwwY8qT1mtHVSSBsdh.CEi_1YtL.jpeg']
-  },
-  'stree-2': {
-    media: ['2NC7sj8rheKxWqLYAbHnCa4mYBH.6MsJ7t0E.jpeg', 'yudyxWcSts44556WWpJkoBZvylO.B2EHXfcW.jpeg']
-  },
-  'munjya': {
-    media: ['pgAlKZVLX0eKu7By7LeRArqW7Jh.D4m4JIMG.jpeg', 'ylYdXu0SM79Qs7vOz6q7mBxanVD.BLTv2MgE.jpeg']
-  },
-  'bhediya': {
-    media: ['A2qPWAJmnq3wVk3zBIupTdyJfxR.BFxDqjPS.jpeg', 'MOFfgbFGYsMOPghNJHKANn4WWQ.o6IoOWJE.jpeg']
-  },
-  'roohi': {
-    media: ['10kCy34fbgU9nI5ScfMcCGebNgo.D1WTDxyb.jpeg', 'dseX3duyu7mHwzZqymdiDdXUaMR.jExhC15a.jpeg']
-  },
-  'stree': {
-    media: ['6EXmk9vRC1Nyo18yElHe98RvGHg.DYvtoTAO.jpeg', '8857yhGrS85did6DfUAc1cF4ato.d7BcZafc.jpeg']
-  }
-};
+const mappedInfo = filmImageMap as Record<string, { spotlight: string | null; media: string[] }>;
 
-const fallbackImages = [
-  'ccdb67c1de18.eafRkhPC.jpeg',
-  'b3d99d6d8017.BpaUke21.jpeg',
-  '7c8d43ea53fc.DbrCnIEd.jpeg',
-  '2NC7sj8rheKxWqLYAbHnCa4mYBH.6MsJ7t0E.jpeg',
-  'pgAlKZVLX0eKu7By7LeRArqW7Jh.D4m4JIMG.jpeg',
-  'A2qPWAJmnq3wVk3zBIupTdyJfxR.BFxDqjPS.jpeg',
-  '10kCy34fbgU9nI5ScfMcCGebNgo.D1WTDxyb.jpeg',
-  '6EXmk9vRC1Nyo18yElHe98RvGHg.DYvtoTAO.jpeg'
-];
-
-export const allFilms: Film[] = (filmsJson as Film[]).map((film, index) => {
+export const allFilms: Film[] = (filmsJson as Film[]).map((film) => {
   const cast_members = (film.cast_ids || [])
     .map(id => castMap.get(id))
     .filter((c): c is CastMember => c !== undefined);
 
-  const override = imageOverrides[film.id];
-  const spotlight_image = override?.spotlight || film.spotlight_image || fallbackImages[index % fallbackImages.length];
-  const media = override?.media || (film.media && film.media.length > 0 ? film.media : [fallbackImages[index % fallbackImages.length]]);
+  const mapped = mappedInfo[film.id];
+  const spotlight_image = mapped?.spotlight || (mapped?.media && mapped.media[0]) || film.spotlight_image || 'daf93eb13a04.CU1O9lDy.jpeg';
+  const media = (mapped?.media && mapped.media.length > 0) ? mapped.media : [spotlight_image];
 
   return {
     ...film,
