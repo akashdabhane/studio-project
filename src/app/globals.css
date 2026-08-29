@@ -8,6 +8,9 @@
   --text-muted: #888;
   --nav-h: 72px;
   --transition: cubic-bezier(.16, 1, .3, 1);
+  --font-barlow-family: var(--font-barlow), Barlow, sans-serif;
+  --font-bebas-family: var(--font-bebas), 'Bebas Neue', sans-serif;
+  --font-dm-serif-family: var(--font-dm-serif), 'DM Serif Display', serif;
 }
 
 *, *:before, *:after {
@@ -16,11 +19,22 @@
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 html {
   scroll-behavior: smooth;
   background: var(--black);
   color: var(--white);
-  font-family: 'Barlow', sans-serif;
+  font-family: var(--font-barlow-family);
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -28,7 +42,7 @@ html {
 body {
   background: var(--black);
   color: var(--white);
-  font-family: 'Barlow', sans-serif;
+  font-family: var(--font-barlow-family);
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -156,6 +170,7 @@ nav.scrolled {
   display: flex;
   gap: 40px;
   list-style: none;
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -268,15 +283,18 @@ nav.scrolled {
 }
 
 .hero-label {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .35em;
   text-transform: uppercase;
   color: var(--orange);
   margin-bottom: 16px;
+  font-weight: 400;
 }
 
 .hero-title {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-bebas-family);
+  font-weight: 400;
   font-size: clamp(64px, 10vw, 140px);
   line-height: .9;
   letter-spacing: .02em;
@@ -284,11 +302,13 @@ nav.scrolled {
 }
 
 .hero-tagline {
+  font-family: var(--font-barlow-family);
   margin-top: 20px;
   font-size: clamp(14px, 1.4vw, 18px);
   color: #f2ede6cc;
   max-width: 600px;
   line-height: 1.6;
+  font-weight: 300;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -304,6 +324,7 @@ nav.scrolled {
 }
 
 .btn-primary {
+  font-family: var(--font-barlow-family);
   background: var(--orange);
   color: var(--black);
   padding: 14px 36px;
@@ -323,6 +344,7 @@ nav.scrolled {
 }
 
 .btn-secondary {
+  font-family: var(--font-barlow-family);
   background: #ffffff1a;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
@@ -390,7 +412,8 @@ nav.scrolled {
 }
 
 .slide-indicator {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-bebas-family);
+  font-weight: 400;
   font-size: 18px;
   letter-spacing: .1em;
   display: flex;
@@ -406,6 +429,7 @@ nav.scrolled {
 }
 
 .hero-scroll-hint {
+  font-family: var(--font-barlow-family);
   display: flex;
   align-items: center;
   gap: 12px;
@@ -497,6 +521,7 @@ nav.scrolled {
 }
 
 .close-video-btn {
+  font-family: var(--font-barlow-family);
   position: absolute;
   top: 32px;
   right: 48px;
@@ -579,6 +604,7 @@ nav.scrolled {
 }
 
 .about-visual-label {
+  font-family: var(--font-barlow-family);
   position: absolute;
   top: 24px;
   left: -14px;
@@ -598,6 +624,7 @@ nav.scrolled {
 }
 
 .about-text .section-label {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .35em;
   text-transform: uppercase;
@@ -606,7 +633,8 @@ nav.scrolled {
 }
 
 .about-text h2 {
-  font-family: 'DM Serif Display', serif;
+  font-family: var(--font-dm-serif-family);
+  font-weight: 400;
   font-size: clamp(32px, 3.5vw, 48px);
   line-height: 1.15;
   margin-bottom: 28px;
@@ -618,10 +646,12 @@ nav.scrolled {
 }
 
 .about-text p {
+  font-family: var(--font-barlow-family);
   font-size: 16px;
   line-height: 1.8;
   color: #f2ede6a6;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .about-stats {
@@ -633,13 +663,15 @@ nav.scrolled {
 }
 
 .stat-num {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-bebas-family);
+  font-weight: 400;
   font-size: 52px;
   color: var(--orange);
   line-height: 1;
 }
 
 .stat-label {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -671,6 +703,7 @@ nav.scrolled {
 }
 
 .section-label {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .35em;
   text-transform: uppercase;
@@ -679,13 +712,15 @@ nav.scrolled {
 }
 
 .section-title {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-bebas-family);
+  font-weight: 400;
   font-size: clamp(36px, 5vw, 64px);
   letter-spacing: .03em;
   line-height: 1;
 }
 
 .section-link {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -779,6 +814,7 @@ nav.scrolled {
 }
 
 .upcoming-date {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: .15em;
@@ -787,7 +823,8 @@ nav.scrolled {
 }
 
 .upcoming-name {
-  font-family: 'DM Serif Display', serif;
+  font-family: var(--font-barlow-family), sans-serif;
+  font-weight: 400;
   font-size: 24px;
   color: var(--white);
   line-height: 1.1;
@@ -795,6 +832,7 @@ nav.scrolled {
 }
 
 .upcoming-director {
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   color: var(--text-muted);
 }
@@ -922,6 +960,7 @@ nav.scrolled {
 }
 
 .mhcu-tag {
+  font-family: var(--font-barlow-family);
   align-self: flex-start;
   background: var(--orange);
   color: var(--black);
@@ -935,7 +974,8 @@ nav.scrolled {
 }
 
 .mhcu-card-title {
-  font-family: 'DM Serif Display', serif;
+  font-family: var(--font-barlow-family), sans-serif;
+  font-weight: 400;
   font-size: 32px;
   color: var(--white);
   line-height: 1.2;
@@ -948,6 +988,7 @@ nav.scrolled {
 }
 
 .mhcu-card-excerpt {
+  font-family: var(--font-barlow-family);
   font-size: 13px;
   color: #f2ede6b3;
   line-height: 1.6;
@@ -964,6 +1005,7 @@ nav.scrolled {
 }
 
 .mhcu-card-meta {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -1074,6 +1116,7 @@ nav.scrolled {
 }
 
 .film-card-badge {
+  font-family: var(--font-barlow-family);
   position: absolute;
   top: 16px;
   left: 16px;
@@ -1090,17 +1133,20 @@ nav.scrolled {
 }
 
 .film-card-body {
-  padding: 24px 28px 32px;
+  padding: 28px 28px 32px;
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
 .film-card-title {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-barlow-family), sans-serif;
+  font-weight: 400;
   font-size: 28px;
-  letter-spacing: .06em;
-  margin-bottom: 6px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  color: var(--white);
   transition: color .3s;
 }
 
@@ -1109,28 +1155,32 @@ nav.scrolled {
 }
 
 .film-card-meta {
+  font-family: var(--font-barlow-family);
   display: flex;
   gap: 0;
   align-items: center;
   font-size: 10px;
-  letter-spacing: .15em;
+  letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 
 .film-card-meta span:not(:last-child):after {
-  content: " · ";
-  margin: 0 6px;
-  color: var(--grey2);
+  content: "  ·  ";
+  margin: 0 4px;
+  color: var(--text-muted);
+  opacity: 0.6;
 }
 
 .film-card-summary {
+  font-family: var(--font-barlow-family);
   font-size: 13px;
-  color: #f2ede699;
+  color: #f2ede6b3;
   line-height: 1.7;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  font-weight: 300;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -1142,36 +1192,40 @@ nav.scrolled {
 }
 
 .film-card-crew {
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   color: var(--text-muted);
   line-height: 1.9;
   margin-bottom: 16px;
+  font-weight: 300;
 }
 
 .film-card-crew strong {
   color: var(--white);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .film-card-footer {
-  border-top: 1px solid var(--grey2);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   margin-top: 24px;
   padding-top: 16px;
 }
 
 .film-card-cast {
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   color: var(--text-muted);
   line-height: 1.6;
+  font-weight: 300;
 }
 
 .film-card-cast strong {
   color: var(--white);
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 9px;
-  letter-spacing: .1em;
-  margin-right: 4px;
+  letter-spacing: .15em;
+  margin-right: 6px;
 }
 
 @media (max-width: 900px) {
@@ -1200,7 +1254,8 @@ nav.scrolled {
   right: -40px;
   top: 50%;
   transform: translateY(-50%);
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-bebas-family);
+  font-weight: 400;
   font-size: 240px;
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, .03);
@@ -1217,6 +1272,7 @@ nav.scrolled {
 }
 
 .contact-left .section-label {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .35em;
   text-transform: uppercase;
@@ -1225,7 +1281,8 @@ nav.scrolled {
 }
 
 .contact-left h2 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-bebas-family);
+  font-weight: 400;
   font-size: clamp(48px, 6vw, 80px);
   line-height: .95;
   letter-spacing: .02em;
@@ -1237,10 +1294,12 @@ nav.scrolled {
 }
 
 .contact-left p {
+  font-family: var(--font-barlow-family);
   font-size: 16px;
   line-height: 1.8;
   color: #f2ede699;
   max-width: 420px;
+  font-weight: 300;
 }
 
 .contact-form {
@@ -1262,6 +1321,7 @@ nav.scrolled {
 }
 
 .form-group label {
+  font-family: var(--font-barlow-family);
   display: block;
   font-size: 9px;
   letter-spacing: .3em;
@@ -1280,8 +1340,9 @@ nav.scrolled {
   border: none;
   outline: none;
   color: var(--white);
-  font-family: 'Barlow', sans-serif;
+  font-family: var(--font-barlow-family);
   font-size: 16px;
+  font-weight: 300;
   padding: 0 2px 16px;
   resize: none;
   -webkit-appearance: none;
@@ -1296,6 +1357,7 @@ nav.scrolled {
 }
 
 .form-submit {
+  font-family: var(--font-barlow-family);
   margin-top: 40px;
   background: var(--orange);
   color: var(--black);
@@ -1344,6 +1406,7 @@ footer {
 }
 
 .footer-copy {
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   color: var(--text-muted);
   letter-spacing: .1em;
@@ -1355,6 +1418,7 @@ footer {
 }
 
 .footer-socials a {
+  font-family: var(--font-barlow-family);
   font-size: 10px;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -1405,6 +1469,7 @@ footer {
 }
 
 .close-btn {
+  font-family: var(--font-barlow-family);
   position: absolute;
   top: 24px;
   right: 24px;
@@ -1518,6 +1583,7 @@ footer {
 }
 
 .modal-meta {
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -1529,19 +1595,22 @@ footer {
 }
 
 .modal-title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 56px;
-  letter-spacing: .04em;
+  font-family: var(--font-barlow-family), sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0em;
   line-height: 1.05;
   margin-bottom: 32px;
   color: var(--white);
 }
 
 .modal-desc {
+  font-family: var(--font-barlow-family);
   font-size: 15px;
   line-height: 1.8;
   color: #f2ede6b3;
   margin-bottom: 48px;
+  font-weight: 300;
 }
 
 .modal-crew-grid {
@@ -1560,6 +1629,7 @@ footer {
 }
 
 .crew-role {
+  font-family: var(--font-barlow-family);
   font-size: 9px;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -1567,6 +1637,7 @@ footer {
 }
 
 .crew-name {
+  font-family: var(--font-barlow-family);
   font-size: 14px;
   font-weight: 500;
   color: var(--white);
@@ -1607,6 +1678,7 @@ footer {
 }
 
 .cast-initials {
+  font-family: var(--font-barlow-family);
   font-size: 11px;
   font-weight: 500;
   color: var(--text-muted);
@@ -1614,6 +1686,7 @@ footer {
 }
 
 .cast-name {
+  font-family: var(--font-barlow-family);
   font-size: 12px;
   color: #f2ede6d9;
   line-height: 1.3;
@@ -1657,7 +1730,7 @@ footer {
     overflow-y: visible;
   }
   .modal-title {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 24px;
   }
   .modal-crew-grid {

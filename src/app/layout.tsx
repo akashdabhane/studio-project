@@ -1,5 +1,29 @@
 import type { Metadata } from 'next';
+import { Barlow, Bebas_Neue, DM_Serif_Display } from 'next/font/google';
 import './globals.css';
+
+const barlow = Barlow({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-barlow',
+  display: 'swap',
+});
+
+const bebasNeue = Bebas_Neue({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-bebas',
+  display: 'swap',
+});
+
+const dmSerifDisplay = DM_Serif_Display({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['normal', 'italic'],
+  variable: '--font-dm-serif',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Maddock Films — Cinema Without Compromise',
@@ -15,15 +39,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html
+      lang="en"
+      className={`${barlow.variable} ${bebasNeue.variable} ${dmSerifDisplay.variable}`}
+    >
       <body>
         {children}
       </body>

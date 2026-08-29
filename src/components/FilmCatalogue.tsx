@@ -19,8 +19,12 @@ export default function FilmCatalogue({ films, onSelectFilm }: CatalogueProps) {
 
       <div className="films-grid">
         {films.map((film) => {
-          const poster = film.media[0] || film.spotlight_image || 'placeholder.jpeg';
-          const castNames = (film.cast_members || []).map(c => c.name).slice(0, 3).join(', ');
+          const poster = film.media[0] || film.spotlight_image || 'daf93eb13a04.CU1O9lDy.jpeg';
+          const castNames = (film.cast_members || [])
+            .map(c => c.name)
+            .filter(Boolean)
+            .slice(0, 4)
+            .join(' · ');
 
           return (
             <button
@@ -46,7 +50,7 @@ export default function FilmCatalogue({ films, onSelectFilm }: CatalogueProps) {
                 <div className="film-card-body">
                   <div className="film-card-title">{film.title}</div>
                   <div className="film-card-meta">
-                    <span>{film.category}</span>
+                    {film.category && <span>{film.category}</span>}
                     <span>Feature</span>
                   </div>
 
@@ -54,28 +58,26 @@ export default function FilmCatalogue({ films, onSelectFilm }: CatalogueProps) {
 
                   <div className="film-card-crew">
                     {film.director && (
-                      <>
+                      <div>
                         <strong>Director</strong> — {film.director}
-                        <br />
-                      </>
+                      </div>
                     )}
                     {film.writer && (
-                      <>
+                      <div>
                         <strong>Writer</strong> — {film.writer}
-                        <br />
-                      </>
+                      </div>
                     )}
                   </div>
 
                   <div className="spacer"></div>
 
-                  {castNames && (
+                  {castNames ? (
                     <div className="film-card-footer">
                       <div className="film-card-cast">
-                        <strong>Cast:</strong> {castNames}
+                        <strong>CAST:</strong> {castNames}
                       </div>
                     </div>
-                  )}
+                  ) : null}
                 </div>
               </div>
             </button>
