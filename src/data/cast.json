@@ -1,0 +1,498 @@
+[
+  {
+    "id": "abhay-verma",
+    "name": "Abhay Verma",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "abhishek-bachchan",
+    "name": "Abhishek Bachchan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "abhishek-banerjee",
+    "name": "Abhishek Banerjee",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "agastya-nanda",
+    "name": "Agastya Nanda",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "akshay-kumar",
+    "name": "Akshay Kumar",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "akshaye-khanna",
+    "name": "Akshaye Khanna",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "anand-tiwari",
+    "name": "Anand Tiwari",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "arjun-kapoor",
+    "name": "Arjun Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "armaan-jain",
+    "name": "Armaan Jain",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ayushmann-khurrana",
+    "name": "Ayushmann Khurrana",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bhagyashree",
+    "name": "Bhagyashree",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bhumi-pednekar",
+    "name": "Bhumi Pednekar",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "boman-irani",
+    "name": "Boman Irani",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "deeksha-seth",
+    "name": "Deeksha Seth",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "deepak-dobriyal",
+    "name": "Deepak Dobriyal",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "deepika-padukone",
+    "name": "Deepika Padukone",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "dharmendra",
+    "name": "Dharmendra",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "diana-penty",
+    "name": "Diana Penty",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "diljit-dosanjh",
+    "name": "Diljit Dosanjh",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "dimple-kapadia",
+    "name": "Dimple Kapadia",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "govinda",
+    "name": "Govinda",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ileana-dcruz",
+    "name": "Ileana D'Cruz",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "irrfan-khan",
+    "name": "Irrfan Khan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "jaideep-ahlawat",
+    "name": "Jaideep Ahlawat",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "janhvi-kapoor",
+    "name": "Janhvi Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "jim-sarbh",
+    "name": "Jim Sarbh",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kareena-kapoor",
+    "name": "Kareena Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kareena-kapoor-khan",
+    "name": "Kareena Kapoor Khan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "karisma-kapoor",
+    "name": "Karisma Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kartik-aaryan",
+    "name": "Kartik Aaryan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kriti-sanon",
+    "name": "Kriti Sanon",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kunal-khemu",
+    "name": "Kunal Khemu",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "mohit-raina",
+    "name": "Mohit Raina",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "mona-singh",
+    "name": "Mona Singh",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "mouni-roy",
+    "name": "Mouni Roy",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "naseeruddin-shah",
+    "name": "Naseeruddin Shah",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "nawazuddin-siddiqui",
+    "name": "Nawazuddin Siddiqui",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "nimrat-kaur",
+    "name": "Nimrat Kaur",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "pankaj-tripathi",
+    "name": "Pankaj Tripathi",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "paresh-rawal",
+    "name": "Paresh Rawal",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "radhika-madan",
+    "name": "Radhika Madan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "rajkummar-rao",
+    "name": "Rajkummar Rao",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "rashmika-mandanna",
+    "name": "Rashmika Mandanna",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ratna-pathak-shah",
+    "name": "Ratna Pathak Shah",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "rishi-kapoor",
+    "name": "Rishi Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "saba-qamar",
+    "name": "Saba Qamar",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "sai-tamhankar",
+    "name": "Sai Tamhankar",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "saif-ali-khan",
+    "name": "Saif Ali Khan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "sara-ali-khan",
+    "name": "Sara Ali Khan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "shahid-kapoor",
+    "name": "Shahid Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "sharvari-wagh",
+    "name": "Sharvari Wagh",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "shraddha-kapoor",
+    "name": "Shraddha Kapoor",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "sunny-kaushal",
+    "name": "Sunny Kaushal",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "sushant-singh-rajput",
+    "name": "Sushant Singh Rajput",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "varun-dhawan",
+    "name": "Varun Dhawan",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "varun-sharma",
+    "name": "Varun Sharma",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "veer-pahariya",
+    "name": "Veer Pahariya",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "vicky-kaushal",
+    "name": "Vicky Kaushal",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "vijay-varma",
+    "name": "Vijay Varma",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "vikrant-massey",
+    "name": "Vikrant Massey",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "vir-das",
+    "name": "Vir Das",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "yami-gautam",
+    "name": "Yami Gautam",
+    "headshot": null,
+    "published": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  }
+]

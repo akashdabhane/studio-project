@@ -1,0 +1,41 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
+export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <nav id="nav" className={scrolled ? 'scrolled' : ''}>
+      <a href="#hero" className="nav-logo">
+        <img src="/assets/logo.Bid-RU14.png" alt="Maddock Films" />
+      </a>
+      <ul className="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#upcoming">Upcoming</a>
+        </li>
+        <li>
+          <a href="#mhcu">MHCU</a>
+        </li>
+        <li>
+          <a href="#films">All Films</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  );
+}

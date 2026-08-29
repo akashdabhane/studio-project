@@ -1,0 +1,1247 @@
+[
+  {
+    "id": "love-aaj-kal",
+    "title": "Love Aaj Kal",
+    "release_date": "2009-07-31",
+    "director": "Imtiaz Ali",
+    "writer": "Imtiaz Ali",
+    "description": "A romantic comedy-drama that contrasts a modern-day relationship with a classic romance from the past, showing how the essence of love remains the same.",
+    "trailer_url": "https://www.youtube.com/watch?v=dLH1gmk9_iE",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "36hkylLil37eF45uIeSTe31NRVq.webp",
+      "6BR8RsXEIULGr3PeX4b0nadkpjX.webp"
+    ],
+    "cast_ids": [
+      "saif-ali-khan",
+      "deepika-padukone",
+      "rishi-kapoor"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:15:57Z",
+    "published": true
+  },
+  {
+    "id": "agent-vinod",
+    "title": "Agent Vinod",
+    "release_date": "2012-03-23",
+    "director": "Sriram Raghavan",
+    "writer": "Sriram Raghavan, Arijit Biswas",
+    "description": "A globe-trotting action spy thriller following an Indian intelligence agent on a mission to uncover a global conspiracy.",
+    "trailer_url": "https://www.youtube.com/watch?v=kWaWQCH48Sg",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "4bgof0gD4qa5fOynU3jzcqHbOcF.webp"
+    ],
+    "cast_ids": [
+      "saif-ali-khan",
+      "kareena-kapoor"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:16:00Z",
+    "published": true
+  },
+  {
+    "id": "cocktail",
+    "title": "Cocktail",
+    "release_date": "2012-07-13",
+    "director": "Homi Adajania",
+    "writer": "Imtiaz Ali, Sajid Ali",
+    "description": "A vibrant rom-com exploring the complicated dynamic that ensues when a man falls for his casual fling's traditional best friend.",
+    "trailer_url": "https://www.youtube.com/watch?v=KgiYA04X3cE",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "v7jnxqLjarV8LXUXKPU6WKE78CK.webp"
+    ],
+    "cast_ids": [
+      "saif-ali-khan",
+      "deepika-padukone",
+      "diana-penty"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "go-goa-gone",
+    "title": "Go Goa Gone",
+    "release_date": "2013-05-10",
+    "director": "Raj & DK",
+    "writer": "Raj & DK, Sita Menon",
+    "description": "India's first zombie action-comedy, following a group of friends whose rave party in Goa turns into a fight for survival against the undead.",
+    "trailer_url": "https://www.youtube.com/watch?v=gwhsuOljaxQ",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "5yArWoxijgN0gvo0ExQfKXgZ0Qr.webp",
+      "pyaAYAifrZ1jAfbdunSAiK0QbKs.webp"
+    ],
+    "cast_ids": [
+      "saif-ali-khan",
+      "kunal-khemu",
+      "vir-das",
+      "anand-tiwari"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:17:39Z",
+    "published": true
+  },
+  {
+    "id": "lekar-hum-deewana-dil",
+    "title": "Lekar Hum Deewana Dil",
+    "release_date": "2014-07-04",
+    "director": "Arif Ali",
+    "writer": "Arif Ali",
+    "description": "A youthful romantic drama about two best friends who elope, only to realize that marriage is much more complicated than they anticipated.",
+    "trailer_url": "https://www.youtube.com/watch?v=oGggM1QNEno",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "hQfhMxdrbcZxzA5ieaPL1lMZOcu.webp"
+    ],
+    "cast_ids": [
+      "armaan-jain",
+      "deeksha-seth"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:17:47Z",
+    "published": true
+  },
+  {
+    "id": "finding-fanny",
+    "title": "Finding Fanny",
+    "release_date": "2014-09-12",
+    "director": "Homi Adajania",
+    "writer": "Homi Adajania, Kersi Khambatta",
+    "description": "A quirky satirical road movie where five dysfunctional Goans set off on a journey to find an old postman's lost love.",
+    "trailer_url": "https://www.youtube.com/watch?v=5O86FUOrlkY",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "9AeKSeHxI716kJF71Cy6uioOI73.webp"
+    ],
+    "cast_ids": [
+      "arjun-kapoor",
+      "deepika-padukone",
+      "naseeruddin-shah",
+      "dimple-kapadia"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:17:50Z",
+    "published": true
+  },
+  {
+    "id": "happy-ending",
+    "title": "Happy Ending",
+    "release_date": "2014-11-21",
+    "director": "Raj & DK",
+    "writer": "Raj & DK, Sita Menon",
+    "description": "A meta-comedy about a struggling writer who must pen a romantic comedy for a fading movie star to save his own career.",
+    "trailer_url": "https://www.youtube.com/watch?v=e0M2ptpW4_k",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "8kqqWPR6LNYlJZiS0rx4KjZGyWu.webp",
+      "o87NAW7MuDB0pp0V6Pixr4HFdjL.webp",
+      "sSHhlukG0bNhmlQMjPtXhBythDE.webp"
+    ],
+    "cast_ids": [
+      "saif-ali-khan",
+      "ileana-dcruz",
+      "govinda"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:17:53Z",
+    "published": true
+  },
+  {
+    "id": "badlapur",
+    "title": "Badlapur",
+    "release_date": "2015-02-20",
+    "director": "Sriram Raghavan",
+    "writer": "Sriram Raghavan, Arijit Biswas",
+    "description": "A dark, gritty neo-noir revenge thriller about a man who spends 15 years hunting down the bank robbers who killed his family.",
+    "trailer_url": "https://www.youtube.com/watch?v=_WZpPNVWGoI",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "28AfzDYCtzcex7iOP4jle50CrVt.webp",
+      "9bbJBjCcyjYyMG9kW38X55tgiYu.webp",
+      "ePy0EqRwO2mi5RVH4X0MiUlMU8.webp",
+      "vA1PBDOrNmi2zu5mMrrfQnSnEjR.webp"
+    ],
+    "cast_ids": [
+      "varun-dhawan",
+      "nawazuddin-siddiqui",
+      "yami-gautam"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "hindi-medium",
+    "title": "Hindi Medium",
+    "release_date": "2017-05-19",
+    "director": "Saket Chaudhary",
+    "writer": "Saket Chaudhary, Zeenat Lakhani",
+    "description": "A satirical comedy-drama about a wealthy but uneducated couple who go to extreme lengths to get their daughter into an elite English-medium school.",
+    "trailer_url": "https://www.youtube.com/watch?v=GjkFr48jk68",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "2v0nQd3kYBV0iPNCVHiaLWGb1hg.webp",
+      "nxmvzPyEH36KOL5KMi1VvnL9kai.webp"
+    ],
+    "cast_ids": [
+      "irrfan-khan",
+      "saba-qamar",
+      "deepak-dobriyal"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:17:57Z",
+    "published": true
+  },
+  {
+    "id": "raabta",
+    "title": "Raabta",
+    "release_date": "2017-06-09",
+    "director": "Dinesh Vijan",
+    "writer": "Siddharth-Garima",
+    "description": "A romantic action film intertwining a modern-day love triangle with the reincarnation of ancient warriors.",
+    "trailer_url": "https://www.youtube.com/watch?v=YXjYfpqg8Z0",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "ovdpOhdgYqhDmy3uYGhNN16CKzQ.webp"
+    ],
+    "cast_ids": [
+      "sushant-singh-rajput",
+      "kriti-sanon",
+      "jim-sarbh"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "stree",
+    "title": "Stree",
+    "release_date": "2018-08-31",
+    "director": "Amar Kaushik",
+    "writer": "Raj & DK",
+    "description": "The foundational film of the Supernatural Universe. A horror-comedy about a small town terrorized by a female spirit who abducts men at night.",
+    "trailer_url": "https://www.youtube.com/watch?v=gzeaGcLLl_A",
+    "brand_color": null,
+    "category": "MHCU",
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": true
+    },
+    "spotlight_image": null,
+    "media": [
+      "6EXmk9vRC1Nyo18yElHe98RvGHg.webp",
+      "8857yhGrS85did6DfUAc1cF4ato.webp"
+    ],
+    "cast_ids": [
+      "shraddha-kapoor",
+      "rajkummar-rao",
+      "pankaj-tripathi"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:59:27Z",
+    "published": true
+  },
+  {
+    "id": "luka-chuppi",
+    "title": "Luka Chuppi",
+    "release_date": "2019-03-01",
+    "director": "Laxman Utekar",
+    "writer": "Rohan Shankar",
+    "description": "A comedy of errors about a couple attempting a live-in relationship, which goes hilariously wrong when their traditional families unexpectedly join them.",
+    "trailer_url": "https://www.youtube.com/watch?v=-JLewvWBkCw",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "pa7zam9rAUBZEbfEuFQszaId4tQ.webp"
+    ],
+    "cast_ids": [
+      "kartik-aaryan",
+      "kriti-sanon"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:04Z",
+    "published": true
+  },
+  {
+    "id": "arjun-patiala",
+    "title": "Arjun Patiala",
+    "release_date": "2019-07-26",
+    "director": "Rohit Jugraj",
+    "writer": "Ritesh Shah, Sandeep Leyzell",
+    "description": "A spoof-comedy centered around a quirky, newly appointed police officer trying to reduce crime in his town.",
+    "trailer_url": "https://www.youtube.com/watch?v=nR7ETMS7Eo0",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "nuPerJWV04xQMQUu9J6K6H4iFCB.webp",
+      "peRpGLdyInRrSH9PKjgjDZh7p8I.webp"
+    ],
+    "cast_ids": [
+      "diljit-dosanjh",
+      "kriti-sanon",
+      "varun-sharma"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:08Z",
+    "published": true
+  },
+  {
+    "id": "made-in-china",
+    "title": "Made In China",
+    "release_date": "2019-10-25",
+    "director": "Mikhil Musale",
+    "writer": "Mikhil Musale, Karan Vyas, Niren Bhatt",
+    "description": "The journey of a struggling Gujarati businessman who travels to China and brings back an unproven aphrodisiac to sell in India.",
+    "trailer_url": "https://www.youtube.com/watch?v=eA6PFnSHo-E",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "aYsfyp7tpQjQux1s83mWsBJ6MhK.webp"
+    ],
+    "cast_ids": [
+      "rajkummar-rao",
+      "mouni-roy",
+      "boman-irani"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:13Z",
+    "published": true
+  },
+  {
+    "id": "bala",
+    "title": "Bala",
+    "release_date": "2019-11-08",
+    "director": "Amar Kaushik",
+    "writer": "Niren Bhatt",
+    "description": "A socially relevant comedy about a young man struggling with societal pressures and low self-esteem due to premature balding.",
+    "trailer_url": "https://www.youtube.com/watch?v=veJ6ejMjzgE",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "vWiqhvoCJsymKVe8vbZLuYfY4rg.webp",
+      "yIDQRD4rPofIodn0b1Md2WyXzSD.webp"
+    ],
+    "cast_ids": [
+      "ayushmann-khurrana",
+      "yami-gautam",
+      "bhumi-pednekar"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "love-aaj-kal-2020",
+    "title": "Love Aaj Kal (2020)",
+    "release_date": "2020-02-14",
+    "director": "Imtiaz Ali",
+    "writer": "Imtiaz Ali",
+    "description": "A spiritual successor to the 2009 film, once again exploring two contrasting decades of romance.",
+    "trailer_url": "https://www.youtube.com/watch?v=4QvqHwH_je8",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "wQd1RaaMfLFcLiDD9UEo4pdoTHq.webp",
+      "xWy1G2DfDpx007fZeH8aVwiHf0i.webp"
+    ],
+    "cast_ids": [
+      "kartik-aaryan",
+      "sara-ali-khan"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:23Z",
+    "published": true
+  },
+  {
+    "id": "angrezi-medium",
+    "title": "Angrezi Medium",
+    "release_date": "2020-03-13",
+    "director": "Homi Adajania",
+    "writer": "Bhavesh Mandalia, Gaurav Shukla, Vinay Chhawal, Sara Bodinar",
+    "description": "A heartwarming spin-off to Hindi Medium, following a father's hilarious and touching efforts to send his daughter to college in London.",
+    "trailer_url": "https://www.youtube.com/watch?v=rzlfeocUVhI",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "BTzAj0OWy8852qH6YveWuRMrh9.webp"
+    ],
+    "cast_ids": [
+      "irrfan-khan",
+      "radhika-madan",
+      "kareena-kapoor-khan"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:26Z",
+    "published": true
+  },
+  {
+    "id": "roohi",
+    "title": "Roohi",
+    "release_date": "2021-03-11",
+    "director": "Hardik Mehta",
+    "writer": "Mrighdeep Singh Lamba, Gautam Mehra",
+    "description": "The second entry in the Supernatural Universe, following two bumbling friends who kidnap a bride, only to discover she is possessed by a demon.",
+    "trailer_url": "https://www.youtube.com/watch?v=mTT_V0t89MI",
+    "brand_color": null,
+    "category": "MHCU",
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": true
+    },
+    "spotlight_image": null,
+    "media": [
+      "10kCy34fbgU9nI5ScfMcCGebNgo.webp",
+      "dseX3duyu7mHwzZqymdiDdXUaMR.webp",
+      "qHpEGFx13ntiAVl94e08EJ5ss4U.webp"
+    ],
+    "cast_ids": [
+      "rajkummar-rao",
+      "varun-sharma",
+      "janhvi-kapoor"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:59:21Z",
+    "published": true
+  },
+  {
+    "id": "mimi",
+    "title": "Mimi",
+    "release_date": "2021-07-26",
+    "director": "Laxman Utekar",
+    "writer": "Laxman Utekar, Rohan Shankar",
+    "description": "A touching drama about an aspiring actress in a small town who agrees to become a surrogate mother for a foreign couple, leading to unexpected complications.",
+    "trailer_url": "https://www.youtube.com/watch?v=_sc3HyeNxPs",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "AtCUHSf5sG31FL0vugxplft5FXW.webp",
+      "bEIuKGXnVmoFauCKF2EL8gvfvIx.webp",
+      "ppRk3LY93Jn7RNVwilonezUYDuc.webp",
+      "zt2mFxZt3KcP5powH6m3uG7wZM.webp"
+    ],
+    "cast_ids": [
+      "kriti-sanon",
+      "pankaj-tripathi",
+      "sai-tamhankar"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "shiddat",
+    "title": "Shiddat",
+    "release_date": "2021-10-01",
+    "director": "Kunal Deshmukh",
+    "writer": "Shridhar Raghavan, Dheeraj Rattan",
+    "description": "A passionate romance detailing a young man's obsessive and boundary-pushing quest to reunite with the woman he loves.",
+    "trailer_url": "https://www.youtube.com/watch?v=x60tMH7Pz9s",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "1NxXMI6L1kv7oZXaWCYb8eHCNzu.webp",
+      "dEXxQAspQzZsw9VEiuVWRDJnvvy.webp",
+      "ecGfiMkRrTRmZvFeGvdoBjD1qsW.webp",
+      "yA913DGedHYqOszYGDQ3UewSgd9.webp"
+    ],
+    "cast_ids": [
+      "sunny-kaushal",
+      "radhika-madan",
+      "mohit-raina",
+      "diana-penty"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "hum-do-hamare-do",
+    "title": "Hum Do Hamare Do",
+    "release_date": "2021-10-29",
+    "director": "Abhishek Jain",
+    "writer": "Prashant Jha, Abhishek Jain",
+    "description": "A family comedy where an orphan \"adopts\" a fake set of parents to win over the love of his life.",
+    "trailer_url": "https://www.youtube.com/watch?v=t3efdEAkMgQ",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "hzBUHsALNaxnoIyUij2qsN71iIh.webp",
+      "kBHaPMGxzrY5GX9MZr1GuivucuJ.webp",
+      "sxPTexX9JD5g3EMA1HkKBdVlCCN.webp"
+    ],
+    "cast_ids": [
+      "rajkummar-rao",
+      "kriti-sanon",
+      "paresh-rawal",
+      "ratna-pathak-shah"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:38Z",
+    "published": true
+  },
+  {
+    "id": "dasvi",
+    "title": "Dasvi",
+    "release_date": "2022-04-07",
+    "director": "Tushar Jalota",
+    "writer": "Ritesh Shah, Suresh Nair, Sandeep Leyzell",
+    "description": "An uneducated, corrupt politician decides to spend his prison sentence studying for his 10th-grade (Dasvi) board exams.",
+    "trailer_url": "https://www.youtube.com/watch?v=-FrqlHlUgz4",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "2o6QlHOnmDLFkH28UjTp001Gaiw.webp",
+      "4jbQa6OTvYRCbyrtBsUSlyOphYr.webp",
+      "9ZrUoqy6DbjtdyHmyeU8Q8yoVw2.webp",
+      "tEPosKC6Z8R9Xi42D3H9Wh6Omzx.webp",
+      "zEKYAoeIs92OWV6FQTRN7poOFmd.webp",
+      "zL40soH0AYoBD5BVNu9U2B98ejD.webp"
+    ],
+    "cast_ids": [
+      "abhishek-bachchan",
+      "yami-gautam",
+      "nimrat-kaur"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:28:52Z",
+    "published": true
+  },
+  {
+    "id": "bhediya",
+    "title": "Bhediya",
+    "release_date": "2022-11-25",
+    "director": "Amar Kaushik",
+    "writer": "Niren Bhatt",
+    "description": "Set in Arunachal Pradesh, this creature-comedy (part of the Supernatural Universe) follows a man who begins transforming into a werewolf after a mystical bite.",
+    "trailer_url": "https://www.youtube.com/watch?v=mfl--nI-Bhs",
+    "brand_color": null,
+    "category": "MHCU",
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": true
+    },
+    "spotlight_image": null,
+    "media": [
+      "A2qPWAJmnq3wVk3zBIupTdyJfxR.webp",
+      "MOFfgbFGYsMOPghNJHKANn4WWQ.webp",
+      "iZtq44ZmxBW0E3tAeLG6UdJe9aj.webp",
+      "o970SSCQFsdsTZTzMW76UXHoXJG.webp"
+    ],
+    "cast_ids": [
+      "varun-dhawan",
+      "kriti-sanon",
+      "abhishek-banerjee"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:59:13Z",
+    "published": true
+  },
+  {
+    "id": "chor-nikal-ke-bhaga",
+    "title": "Chor Nikal Ke Bhaga",
+    "release_date": "2023-03-24",
+    "director": "Ajay Singh",
+    "writer": "Shiraz Ahmed, Amar Kaushik",
+    "description": "A tense heist-thriller where a flight attendant and her boyfriend plan to steal diamonds mid-flight, only to get caught in a hijacking.",
+    "trailer_url": "https://www.youtube.com/watch?v=0B4fbzWGub4",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "1MIDERaEUMw1rYDM99tGZPY80Ap.webp"
+    ],
+    "cast_ids": [
+      "sunny-kaushal",
+      "yami-gautam"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:46Z",
+    "published": true
+  },
+  {
+    "id": "zara-hatke-zara-bachke",
+    "title": "Zara Hatke Zara Bachke",
+    "release_date": "2023-06-02",
+    "director": "Laxman Utekar",
+    "writer": "Maitrey Bajpai, Ramiz Ilham Khan, Laxman Utekar",
+    "description": "A middle-class married couple fakes a divorce in a convoluted scheme to qualify for a government housing scheme.",
+    "trailer_url": "https://www.youtube.com/watch?v=ziK8HzNk04A",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "bzzxTkcqvyFtllWbCG7cSGY7bcL.webp",
+      "dz1uDnrghDAsqkCoNQqISM0Alo7.webp",
+      "nGxLQxD4Tn8ugzkJtPUT4ZPshUh.webp",
+      "wIziBCZWsDCzFbil4iT9TyUOnhT.webp"
+    ],
+    "cast_ids": [
+      "vicky-kaushal",
+      "sara-ali-khan"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:18:55Z",
+    "published": true
+  },
+  {
+    "id": "sajini-shinde-ka-viral-video",
+    "title": "Sajini Shinde Ka Viral Video",
+    "release_date": "2023-10-27",
+    "director": "Mikhil Musale",
+    "writer": "Mikhil Musale, Parinda Joshi",
+    "description": "A mystery-thriller delving into the fallout when a young teacher's private video gets leaked online.",
+    "trailer_url": "https://www.youtube.com/watch?v=WNWfVKw1CVs",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "9OcjqPddhJZ2CTeZR7KNar9vcMP.webp",
+      "by1wiMOeY7NjPAsVcCCQz6CfkP7.webp",
+      "vLIBvGjh7K0XrhU0yHNUCWyrkuK.webp",
+      "xkDtXIlQBtkaHSjL6NyUsZREZTe.webp"
+    ],
+    "cast_ids": [
+      "nimrat-kaur",
+      "radhika-madan",
+      "bhagyashree"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:19:07Z",
+    "published": true
+  },
+  {
+    "id": "teri-baaton-mein-aisa-uljha-jiya",
+    "title": "Teri Baaton Mein Aisa Uljha Jiya",
+    "release_date": "2024-02-09",
+    "director": "Amit Joshi, Aradhana Sah",
+    "writer": "Amit Joshi, Aradhana Sah",
+    "description": "A sci-fi romantic comedy where a robotics engineer accidentally falls in love with a highly advanced AI android.",
+    "trailer_url": "https://www.youtube.com/watch?v=w_N6d4ec79c",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "o85zwioYQ1m586ZF7TbqHQItT5g.webp",
+      "pBHW3AYd485Cpugy2WNGhm8JrPL.webp",
+      "vwsBpnwmMO0xtIgxvCrViJgZhVj.webp"
+    ],
+    "cast_ids": [
+      "shahid-kapoor",
+      "kriti-sanon",
+      "dharmendra"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:19:18Z",
+    "published": true
+  },
+  {
+    "id": "murder-mubarak",
+    "title": "Murder Mubarak",
+    "release_date": "2024-03-15",
+    "director": "Homi Adajania",
+    "writer": "Gazal Dhaliwal, Suprotim Sengupta",
+    "description": "A whodunit murder mystery set inside an elite Delhi club, helmed by a quirky investigating officer.",
+    "trailer_url": "https://www.youtube.com/watch?v=vBQcU00U9O0",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "joU5VihgUvkhyPnhzxfjmWk32rd.webp",
+      "n4O3iNGXX7l6c651DbhpLCn5v8s.webp"
+    ],
+    "cast_ids": [
+      "pankaj-tripathi",
+      "sara-ali-khan",
+      "vijay-varma",
+      "karisma-kapoor"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:19:22Z",
+    "published": true
+  },
+  {
+    "id": "munjya",
+    "title": "Munjya",
+    "release_date": "2024-06-07",
+    "director": "Aditya Sarpotdar",
+    "writer": "Niren Bhatt, Yogesh Chandekar",
+    "description": "A breakout horror-comedy hit from the Supernatural Universe focusing on a folklore demon tied to a young boy's ancestral village.",
+    "trailer_url": "https://www.youtube.com/watch?v=8X3uF80H5LU",
+    "brand_color": null,
+    "category": "MHCU",
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": true
+    },
+    "spotlight_image": null,
+    "media": [
+      "pgAlKZVLX0eKu7By7LeRArqW7Jh.webp",
+      "ylYdXu0SM79Qs7vOz6q7mBxanVD.webp"
+    ],
+    "cast_ids": [
+      "abhay-verma",
+      "sharvari-wagh",
+      "mona-singh"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T17:59:01Z",
+    "published": true
+  },
+  {
+    "id": "stree-2",
+    "title": "Stree 2",
+    "release_date": "2024-08-15",
+    "director": "Amar Kaushik",
+    "writer": "Niren Bhatt",
+    "description": "The mega-blockbuster sequel where the town of Chanderi is haunted by a new entity, \"Sarkata,\" forcing the town to rely on Stree for salvation.",
+    "trailer_url": "https://www.youtube.com/watch?v=KVnheXywIbY",
+    "brand_color": null,
+    "category": "MHCU",
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": true
+    },
+    "spotlight_image": null,
+    "media": [
+      "2NC7sj8rheKxWqLYAbHnCa4mYBH.webp",
+      "yudyxWcSts44556WWpJkoBZvylO.webp"
+    ],
+    "cast_ids": [
+      "shraddha-kapoor",
+      "rajkummar-rao",
+      "pankaj-tripathi"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:19:26Z",
+    "published": true
+  },
+  {
+    "id": "sector-36",
+    "title": "Sector 36",
+    "release_date": "2024-09-13",
+    "director": "Aditya Nimbalkar",
+    "writer": "Bodhayan Roychaudhury",
+    "description": "A gritty, dark crime thriller inspired by true events, focusing on a serial killer and a corrupt cop in Delhi.",
+    "trailer_url": "https://www.youtube.com/watch?v=eES65pr2POM",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "3Kd9mAa8q7a2D4EercmsFc7qooc.webp",
+      "irLOJnreNJr6pvdJAFQd4gVjKn8.webp",
+      "lgfKuFUw1U2fIjeyT9TTdHKE7uK.webp",
+      "pbVcZmmcfqk35Q9hNxRoR7JPiVp.webp"
+    ],
+    "cast_ids": [
+      "vikrant-massey",
+      "deepak-dobriyal"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T18:19:29Z",
+    "published": true
+  },
+  {
+    "id": "chhaava",
+    "title": "Chhaava",
+    "release_date": "2025-02-14",
+    "director": "Laxman Utekar",
+    "writer": "Rishi Virmani",
+    "description": "A massive historical epic chronicling the life, valor, and eventual martyrdom of Chhatrapati Sambhaji Maharaj.",
+    "trailer_url": "https://www.youtube.com/watch?v=hs3w32RG8L8",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "10kF8Db0C8Y6pXTO7ViIpblypAV.webp",
+      "1lWy7c89ZtZyNWH29WtenDnBQRo.webp",
+      "7AeohlqamcLL1diMusV28eTngvg.webp",
+      "9F4lPRLjfBjsu0zjWNOZQMa8a4V.webp",
+      "rjfJYcS0eMaBD5v0651OVFZQwPL.webp",
+      "u8oQOAsDxkBU68ZxAZvD5Z90LtD.webp",
+      "ubRsrzb6NRW8YhVTJ6jG1kpNvCi.webp",
+      "zwBQhc0er3VxCX16hBuq50K5GNv.webp"
+    ],
+    "cast_ids": [
+      "vicky-kaushal",
+      "rashmika-mandanna",
+      "akshaye-khanna"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T19:39:00Z",
+    "published": true
+  },
+  {
+    "id": "sky-force",
+    "title": "Sky Force",
+    "release_date": "2025-01-24",
+    "director": "Sandeep Kewlani, Abhishek Anil Kapur",
+    "writer": "Sandeep Kewlani",
+    "description": "An action-packed aviation thriller set against the backdrop of India's first and deadliest airstrike.",
+    "trailer_url": "https://www.youtube.com/watch?v=CgruxokrhjQ",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "5UjnIj3Dwq1YCEKyWFaZGRVXIdK.webp",
+      "8MEUzik8hwh8K1fbhO3WaVBTy89.webp",
+      "9fzquWYgWytB9OJBmPA3IuM5ZnT.webp",
+      "coUJA3ZWR5baqwEW3W6pVsadQXC.webp",
+      "f1KLUpaW7rbXhUm5SxG1lpPFFCJ.webp",
+      "ii1Uik577OnQp1i5IAwpfOEpeC7.webp",
+      "jAJ7XXlHI5W3hEHc7CbadLNRhWC.webp",
+      "okYKo9PgwYGl1EuyhjNIKEUijQz.webp"
+    ],
+    "cast_ids": [
+      "akshay-kumar",
+      "veer-pahariya",
+      "sara-ali-khan"
+    ],
+    "spotlight_order": null,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-04-24T19:04:39Z",
+    "published": true
+  },
+  {
+    "id": "thamma",
+    "title": "Thamma",
+    "release_date": "2025-10-21",
+    "director": "Aditya Sarpotdar",
+    "writer": "Niren Bhatt",
+    "description": "An upcoming major addition to the Maddock Supernatural Universe, dealing with a romantic horror-comedy storyline.",
+    "trailer_url": "https://www.youtube.com/watch?v=Mod_oXpftJA",
+    "brand_color": null,
+    "category": "MHCU",
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": true
+    },
+    "spotlight_image": "Thamma_Spotlight.png",
+    "media": [
+      "2CPtFVZWzThp9cjxUcpf2i2J6Qi.webp",
+      "6N9sUbnu1FwwY8qT1mtHVSSBsdh.webp",
+      "7aSh2ZAJQvZIzw6yikc7XJ1zJmz.webp",
+      "8LJdtgDzNTVQxRMOd8nCXtJh8Wr.webp",
+      "d1SbIg1r1eowrCWsxHO6BJqQQwN.webp",
+      "i4fYoxLwDxMnu8N5VKaNERYAv6b.webp",
+      "jl3hyw4yE1dlw0YKSvpfjsiKWSB.webp",
+      "qNVE6bAPivA6txGZ60797J0sjrC.webp",
+      "tRrTpdwBKuAgx2WrSMNOQwSegaV.webp",
+      "udkbDwBbysCGEydt0FHnl9dVO2k.webp",
+      "z20u8Yt9oGmpSm2NUnlPlo8lJVO.webp"
+    ],
+    "cast_ids": [
+      "ayushmann-khurrana",
+      "rashmika-mandanna",
+      "nawazuddin-siddiqui"
+    ],
+    "spotlight_order": 2,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-07-13T09:30:25.070Z",
+    "published": true
+  },
+  {
+    "id": "ikkis",
+    "title": "Ikkis",
+    "release_date": "2026-01-01",
+    "director": "Sriram Raghavan",
+    "writer": "Sriram Raghavan",
+    "description": "A biographical war drama based on the life of Second Lieutenant Arun Khetarpal, a Param Vir Chakra awardee.",
+    "trailer_url": "https://www.youtube.com/watch?v=ebAznVtYY84",
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": "Ikkis_Spotlight.png",
+    "media": [
+      "6sENUjxCHVtCcYGo99DfxWwkPqz.webp",
+      "70edzATxyOYtIMH1VtBrlvWL0bO.webp",
+      "8PWu0V10nMqG5SrA13wLRXTD2fH.webp",
+      "95QxuvyVR9z37UF9p9eBe89Q79Y.webp",
+      "dtdZ6QhcPyxGhpwamo8W8Yeiguh.webp",
+      "o5qePG53dHwut5Ccc74yYVl0WId.webp",
+      "qTjcwl8fRsNEImwwcB6dc5wgU83.webp",
+      "rTcapcFA9E3dtP35p2gQV8rI44L.webp"
+    ],
+    "cast_ids": [
+      "agastya-nanda",
+      "dharmendra",
+      "jaideep-ahlawat"
+    ],
+    "spotlight_order": 3,
+    "created_at": "2026-04-24T17:28:52Z",
+    "updated_at": "2026-07-13T09:31:33.959Z",
+    "published": true
+  },
+  {
+    "id": "deewaniyat",
+    "title": "Deewaniyat",
+    "release_date": null,
+    "director": null,
+    "writer": null,
+    "description": null,
+    "trailer_url": null,
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": true,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "e4f2e5e50cd0.webp"
+    ],
+    "cast_ids": [],
+    "spotlight_order": null,
+    "created_at": "2026-05-16T16:29:42.921Z",
+    "updated_at": "2026-05-21T13:41:47.927Z",
+    "published": false
+  },
+  {
+    "id": "nikam",
+    "title": "Nikam",
+    "release_date": null,
+    "director": null,
+    "writer": null,
+    "description": null,
+    "trailer_url": null,
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "f896e58585e8.webp"
+    ],
+    "cast_ids": [],
+    "spotlight_order": null,
+    "created_at": "2026-05-16T16:39:23.330Z",
+    "updated_at": "2026-05-21T13:41:42.555Z",
+    "published": false
+  },
+  {
+    "id": "nikam-2",
+    "title": "Nikam",
+    "release_date": null,
+    "director": null,
+    "writer": null,
+    "description": null,
+    "trailer_url": null,
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": false,
+      "upcoming": true,
+      "mhcu": false
+    },
+    "spotlight_image": null,
+    "media": [
+      "f896e58585e8.webp"
+    ],
+    "cast_ids": [],
+    "spotlight_order": null,
+    "created_at": "2026-05-16T16:54:18.641Z",
+    "updated_at": "2026-05-26T10:37:34.501Z",
+    "published": false
+  },
+  {
+    "id": "cocktail-2",
+    "title": "Cocktail 2",
+    "release_date": "2026-06-19",
+    "director": " Homi Adajania",
+    "writer": " Tarun Jain | Luv Ranjan",
+    "description": "Exploring modern relationships amid emotional turmoil, this sequel features new characters facing current challenges while revisiting themes of love, friendship, and heartbreak.",
+    "trailer_url": null,
+    "brand_color": null,
+    "category": null,
+    "flags": {
+      "spotlight": true,
+      "upcoming": false,
+      "mhcu": false
+    },
+    "spotlight_image": "26e7714088b4.webp",
+    "media": [
+      "26e7714088b4.webp",
+      "7c8d43ea53fc.webp",
+      "572973ad5390.webp",
+      "755681df1eab.webp"
+    ],
+    "cast_ids": [],
+    "spotlight_order": 3,
+    "created_at": "2026-05-16T16:55:34.309Z",
+    "updated_at": "2026-07-13T09:35:20.632Z",
+    "published": true
+  },
+  {
+    "id": "eetha",
+    "title": "Eetha",
+    "release_date": null,
+    "director": "Laxman Utekar",
+    "writer": "Kshitij Patwardhan",
+    "description": "Follows Vithabai Narayangaonkar, a renowned Marathi Tamasha and Lavani performer who rose from humble beginnings to become one of Maharashtra's most celebrated folk theatre artists.",
+    "trailer_url": "https://www.youtube.com/watch?v=zfopTfY3lBU&pp=ygUFZWV0aGE%3D",
+    "brand_color": null,
+    "category": "Historical, Biopic, Musical",
+    "flags": {
+      "spotlight": true,
+      "upcoming": true,
+      "mhcu": false
+    },
+    "spotlight_image": "daf93eb13a04.webp",
+    "spotlight_order": 1,
+    "media": [
+      "daf93eb13a04.webp",
+      "ccdb67c1de18.webp"
+    ],
+    "cast_ids": [],
+    "published": true,
+    "created_at": "2026-07-13T09:22:26.109Z",
+    "updated_at": "2026-07-13T09:32:49.776Z"
+  },
+  {
+    "id": "prahaar-the-ujjwal-nikam-story",
+    "title": "Prahaar",
+    "release_date": null,
+    "director": "Avinash Arun",
+    "writer": "Dushyant Arora, Sumit Roy, Vishal Tiwari",
+    "description": "Revisits defining criminal trials in Indian history, exploring public prosecutor Ujjwal Nikam's role in legal battles surrounding the 26/11 Mumbai Terror Attacks.",
+    "trailer_url": "https://www.youtube.com/watch?v=rPZw29Zh6Oo",
+    "brand_color": null,
+    "category": "Courtroom Drama",
+    "flags": {
+      "spotlight": true,
+      "upcoming": true,
+      "mhcu": false
+    },
+    "spotlight_image": "19b61dd2b244.webp",
+    "spotlight_order": 2,
+    "media": [
+      "19b61dd2b244.webp",
+      "b3d99d6d8017.webp"
+    ],
+    "cast_ids": [
+      "rajkummar-rao"
+    ],
+    "published": true,
+    "created_at": "2026-07-13T09:26:46.086Z",
+    "updated_at": "2026-07-13T09:37:44.305Z"
+  }
+]
