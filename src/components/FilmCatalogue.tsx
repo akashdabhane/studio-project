@@ -1,10 +1,96 @@
 'use client';
 
+import { useRef, useState } from 'react';
 import { Film } from '@/data/filmsData';
 
 interface CatalogueProps {
   films: Film[];
   onSelectFilm: (film: Film) => void;
+}
+
+function FilmCard({ film, onSelectFilm }: { film: Film; onSelectFilm: (film: Film) => void }) {
+  const images = film.media.length > 0 ? film.media : [film.spotlight_image || 'daf93eb13a04.CU1O9lDy.jpeg'];
+  const [slide, setSlide] = useState(0);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const startCycle = () => {
+    if (images.length < 2) return;
+    intervalRef.current = setInterval(() => {
+      setSlide(prev => (prev + 1) % images.length);
+    }, 1400);
+  };
+
+  const stopCycle = () => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    intervalRef.current = null;
+    setSlide(0);
+  };
+
+  const castNames = (film.cast_members || [])
+    .map(c => c.name)
+    .filter(Boolean)
+    .slice(0, 4)
+    .join(' · ');
+
+  return (
+    <button
+      className="film-btn-wrapper reveal"
+      onClick={() => onSelectFilm(film)}
+      onMouseEnter={startCycle}
+      onMouseLeave={stopCycle}
+    >
+      <div className="film-card reveal">
+        <div className="film-card-header">
+          {film.release_date && (
+            <div className="film-card-badge">
+              {film.release_date.split('-')[0] || film.release_date}
+            </div>
+          )}
+          <div className="carousel-track" style={{ transform: `translateX(-${slide * 100}%)` }}>
+            {images.map((img, i) => (
+              <picture key={i}>
+                <img src={`/assets/${img}`} alt={film.title} />
+              </picture>
+            ))}
+          </div>
+          <div className="film-card-header-overlay"></div>
+        </div>
+
+        <div className="film-card-body">
+          <div className="film-card-title">{film.title}</div>
+          <div className="film-card-meta">
+            {film.category && <span>{film.category}</span>}
+            <span>Feature</span>
+          </div>
+
+          <p className="film-card-summary">{film.description}</p>
+
+          <div className="film-card-crew">
+            {film.director && (
+              <div>
+                <strong>Director</strong> — {film.director}
+              </div>
+            )}
+            {film.writer && (
+              <div>
+                <strong>Writer</strong> — {film.writer}
+              </div>
+            )}
+          </div>
+
+          <div className="spacer"></div>
+
+          {castNames ? (
+            <div className="film-card-footer">
+              <div className="film-card-cast">
+                <strong>CAST:</strong> {castNames}
+              </div>
+            </div>
+          ) : null}
+        </div>
+      </div>
+    </button>
+  );
 }
 
 export default function FilmCatalogue({ films, onSelectFilm }: CatalogueProps) {
@@ -18,71 +104,9 @@ export default function FilmCatalogue({ films, onSelectFilm }: CatalogueProps) {
       </div>
 
       <div className="films-grid">
-        {films.map((film) => {
-          const poster = film.media[0] || film.spotlight_image || 'daf93eb13a04.CU1O9lDy.jpeg';
-          const castNames = (film.cast_members || [])
-            .map(c => c.name)
-            .filter(Boolean)
-            .slice(0, 4)
-            .join(' · ');
-
-          return (
-            <button
-              key={film.id}
-              className="film-btn-wrapper reveal"
-              onClick={() => onSelectFilm(film)}
-            >
-              <div className="film-card">
-                <div className="film-card-header">
-                  {film.release_date && (
-                    <div className="film-card-badge">
-                      {film.release_date.split('-')[0] || film.release_date}
-                    </div>
-                  )}
-                  <div className="carousel-track">
-                    <picture>
-                      <img src={`/assets/${poster}`} alt={film.title} />
-                    </picture>
-                  </div>
-                  <div className="film-card-header-overlay"></div>
-                </div>
-
-                <div className="film-card-body">
-                  <div className="film-card-title">{film.title}</div>
-                  <div className="film-card-meta">
-                    {film.category && <span>{film.category}</span>}
-                    <span>Feature</span>
-                  </div>
-
-                  <p className="film-card-summary">{film.description}</p>
-
-                  <div className="film-card-crew">
-                    {film.director && (
-                      <div>
-                        <strong>Director</strong> — {film.director}
-                      </div>
-                    )}
-                    {film.writer && (
-                      <div>
-                        <strong>Writer</strong> — {film.writer}
-                      </div>
-                    )}
-                  </div>
-
-                  <div className="spacer"></div>
-
-                  {castNames ? (
-                    <div className="film-card-footer">
-                      <div className="film-card-cast">
-                        <strong>CAST:</strong> {castNames}
-                      </div>
-                    </div>
-                  ) : null}
-                </div>
-              </div>
-            </button>
-          );
-        })}
+        {films.map((film) => (
+          <FilmCard key={film.id} film={film} onSelectFilm={onSelectFilm} />
+        ))}
       </div>
     </section>
   );

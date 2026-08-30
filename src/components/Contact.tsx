@@ -33,7 +33,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <form className="contact-form reveal reveal-delay-3" onSubmit={handleSubmit}>
+        <form className="contact-form reveal reveal-delay-2" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Your Name</label>
             <input

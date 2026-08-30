@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Film } from '@/data/filmsData';
 
 interface FilmModalProps {
@@ -10,10 +10,38 @@ interface FilmModalProps {
 
 export default function FilmModal({ film, onClose }: FilmModalProps) {
   const [isPlayingTrailer, setIsPlayingTrailer] = useState(false);
+  const [slide, setSlide] = useState(0);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (!film) return;
+    document.body.style.overflow = 'hidden';
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [film, onClose]);
 
   if (!film) return null;
 
-  const poster = film.media[0] || film.spotlight_image || 'placeholder.jpeg';
+  const images = film.media.length > 0 ? film.media : [film.spotlight_image || 'placeholder.jpeg'];
+
+  const startCycle = () => {
+    if (images.length < 2) return;
+    intervalRef.current = setInterval(() => {
+      setSlide(prev => (prev + 1) % images.length);
+    }, 1400);
+  };
+
+  const stopCycle = () => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    intervalRef.current = null;
+    setSlide(0);
+  };
 
   const getEmbedUrl = (url?: string | null) => {
     if (!url) return '';
@@ -40,7 +68,7 @@ export default function FilmModal({ film, onClose }: FilmModalProps) {
           ✕
         </button>
 
-        <div className="modal-media">
+        <div className="modal-media" onMouseEnter={startCycle} onMouseLeave={stopCycle}>
           {isPlayingTrailer && film.trailer_url ? (
             <iframe
               className="trailer-embed"
@@ -51,10 +79,12 @@ export default function FilmModal({ film, onClose }: FilmModalProps) {
             />
           ) : (
             <>
-              <div className="carousel-track">
-                <picture>
-                  <img src={`/assets/${poster}`} alt={film.title} />
-                </picture>
+              <div className="carousel-track" style={{ transform: `translateX(-${slide * 100}%)` }}>
+                {images.map((img, i) => (
+                  <picture key={i}>
+                    <img src={`/assets/${img}`} alt={film.title} />
+                  </picture>
+                ))}
               </div>
               <div className="modal-media-overlay"></div>
               {film.trailer_url && (

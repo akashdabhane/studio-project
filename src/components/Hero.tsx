@@ -40,6 +40,19 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
     return () => clearInterval(timer);
   }, [films.length, activeTrailerUrl]);
 
+  useEffect(() => {
+    if (!activeTrailerUrl) return;
+    document.body.style.overflow = 'hidden';
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setActiveTrailerUrl(null);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [activeTrailerUrl]);
+
   const handlePrev = () => {
     setCurrentIndex(prev => (prev - 1 + films.length) % films.length);
   };
