@@ -2,8 +2,11 @@
 
 import { useState } from 'react';
 
+type Status = 'idle' | 'sending' | 'success' | 'error';
+
 export default function Contact() {
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<Status>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -11,13 +14,30 @@ export default function Contact() {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
+    setStatus('sending');
+    setErrorMessage('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => null);
+        throw new Error(data?.error || 'Failed to send message');
+      }
+
+      setStatus('success');
       setFormData({ name: '', email: '', subject: 'General Inquiry', message: '' });
-    }, 4000);
+      setTimeout(() => setStatus('idle'), 4000);
+    } catch (err) {
+      setStatus('error');
+      setErrorMessage(err instanceof Error ? err.message : 'Failed to send message');
+    }
   };
 
   return (
@@ -83,9 +103,17 @@ export default function Contact() {
             />
           </div>
 
-          <button type="submit" className="form-submit">
-            {submitted ? 'Message Sent ✓' : 'Send Message'}
+          <button type="submit" className="form-submit" disabled={status === 'sending'}>
+            {status === 'sending' && 'Sending...'}
+            {status === 'success' && 'Message Sent ✓'}
+            {(status === 'idle' || status === 'error') && 'Send Message'}
           </button>
+
+          {status === 'error' && (
+            <p className="form-error" role="alert">
+              {errorMessage || 'Something went wrong. Please try again.'}
+            </p>
+          )}
         </form>
       </div>
     </section>
