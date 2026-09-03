@@ -49,7 +49,7 @@ export default function Contact() {
             Let's Make <span>History</span>
           </h2>
           <p className="reveal reveal-delay-2">
-            Have a story that demands to be told? Reach out to Maddock Films for production inquiries, script submissions, press opportunities, or distribution.
+            Have a story that demands to be told? Reach out to Vijesha Films for production inquiries, script submissions, press opportunities, or distribution.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function Contact() {
               id="name"
               type="text"
               required
-              placeholder="e.g. Dinesh Vijan"
+              placeholder="e.g. Raj Dhoundiyal"
               value={formData.name}
               onChange={e => setFormData({ ...formData, name: e.target.value })}
             />

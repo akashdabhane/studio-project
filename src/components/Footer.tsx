@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-logo">
-        <img src="/assets/logo.Bid-RU14.png" alt="Maddock Films" />
+        <img src="/assets/vijesha-films-logo.jpg" alt="Vijesha Films" />
       </div>
       <div className="footer-copy">
-        © {new Date().getFullYear()} Maddock Films. All rights reserved.
+        © {new Date().getFullYear()} Vijesha Films. All rights reserved.
       </div>
       <div className="footer-socials">
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
