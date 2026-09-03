@@ -1,5 +1,7 @@
 import filmsJson from './films.json';
 import castJson from './cast.json';
+import filmsJson2 from './films2.json';
+import filmImageMap2 from '../../film_image_map2.json';
 
 // Import exact CDN mapped images for every film
 import filmImageMap from '../../film_image_map.json';
@@ -25,10 +27,10 @@ export interface Film {
   description: string;
   trailer_url: string | null;
   brand_color: string | null;
-  category: string;
+  category: string | null;
   flags: FilmFlags;
-  spotlight_image?: string;
-  spotlight_order?: number;
+  spotlight_image?: string | null;
+  spotlight_order?: number | null;
   media: string[];
   cast_ids: string[];
   cast_members?: CastMember[];
@@ -47,15 +49,15 @@ const castMap = new Map<string, CastMember>(
   (castJson as CastMember[]).map(c => [c.id, c])
 );
 
-const mappedInfo = filmImageMap as Record<string, { spotlight: string | null; media: string[] }>;
+const mappedInfo = filmImageMap2 as Record<string, { spotlight: string | null; media: string[] }>;
 
-export const allFilms: Film[] = (filmsJson as Film[]).map((film) => {
+export const allFilms: Film[] = (filmsJson2 as Film[]).map((film) => {
   const cast_members = (film.cast_ids || [])
     .map(id => castMap.get(id))
     .filter((c): c is CastMember => c !== undefined);
 
   const mapped = mappedInfo[film.id];
-  const spotlight_image = mapped?.spotlight || (mapped?.media && mapped.media[0]) || film.spotlight_image || 'daf93eb13a04.CU1O9lDy.jpeg';
+  const spotlight_image = mapped?.spotlight || film.spotlight_image || 'daf93eb13a04.CU1O9lDy.jpeg';
   const media = (mapped?.media && mapped.media.length > 0) ? mapped.media : [spotlight_image];
 
   return {
