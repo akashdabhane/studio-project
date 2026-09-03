@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <nav id="nav" className={scrolled ? 'scrolled' : ''}>
       <a href="#hero" className="nav-logo">
-        <img src="/assets/logo.Bid-RU14.png" alt="Maddock Films" />
+        <img src="/assets/vijesha-films-logo.jpg" alt="Vijesha Films" />
       </a>
       <ul className="nav-links">
         <li>

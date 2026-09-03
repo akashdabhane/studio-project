@@ -26,10 +26,10 @@ const dmSerifDisplay = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Maddock Films — Cinema Without Compromise',
-  description: 'Maddock Films is an independent production company committed to bold storytelling and authentic human experiences.',
+  title: 'Vijesha Films — Cinema Without Compromise',
+  description: 'Vijesha Films is an independent production company committed to bold storytelling and authentic human experiences.',
   icons: {
-    icon: '/assets/favicon.DMhi30Pi.svg',
+    icon: '/assets/favicon2.jpg',
   },
 };
 

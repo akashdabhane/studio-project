@@ -7,8 +7,8 @@ export default function About() {
         <div className="about-visual reveal">
           <picture>
             <img
-              src="/assets/Dinesh Ver.hE2HMXfl.jpeg"
-              alt="About Maddock Films - Dinesh Vijan"
+              src="/assets/raj-photo.jpg"
+              alt="About Vijesha Films - Raj"
               width="1536"
               height="2752"
             />
@@ -23,7 +23,7 @@ export default function About() {
             Cinema Without <em>Compromise</em>
           </h2>
           <p className="reveal reveal-delay-2">
-            Maddock Films is an independent production company committed to bold storytelling and authentic human experiences. We champion directors with a distinct vision and stories that demand to be told.
+            Vijesha Films is an independent production company committed to bold storytelling and authentic human experiences. We champion directors with a distinct vision and stories that demand to be told.
           </p>
           <p className="reveal reveal-delay-3">
             From gritty dramas to sweeping epics, every frame we put on screen is a declaration of artistic intent. We don't make films — we make moments that outlast the credits.
