@@ -33,12 +33,12 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
   const currentFilm = films[currentIndex % films.length];
 
   useEffect(() => {
-    if (activeTrailerUrl) return; // Pause auto rotation when trailer modal is open
+    if (activeTrailerUrl || films.length <= 1) return; // Pause auto rotation when trailer modal is open or only 1 film
     const timer = setInterval(() => {
       setCurrentIndex(prev => (prev + 1) % films.length);
     }, 7000);
     return () => clearInterval(timer);
-  }, [films.length, activeTrailerUrl]);
+  }, [currentIndex, films.length, activeTrailerUrl]);
 
   useEffect(() => {
     if (!activeTrailerUrl) return;
