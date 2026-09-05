@@ -27,7 +27,7 @@ export default function Navbar() {
           <a href="#upcoming">Upcoming</a>
         </li>
         <li>
-          <a href="#mhcu">MHCU</a>
+          <a href="#services">Services</a>
         </li>
         <li>
           <a href="#films">All Films</a>

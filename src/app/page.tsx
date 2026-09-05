@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import UpcomingReleases from '@/components/UpcomingReleases';
-import MHCU from '@/components/MHCU';
+import Services from '@/components/Services';
 import FilmCatalogue from '@/components/FilmCatalogue';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -16,8 +16,6 @@ import {
   getSpotlightFilms,
   getUpcomingFilms,
   Film,
-  MHCUItem,
-  mhcuAssets
 } from '@/data/filmsData';
 
 export default function Home() {
@@ -45,32 +43,6 @@ export default function Home() {
     };
   }, []);
 
-  const handleSelectMHCU = (mhcuItem: MHCUItem) => {
-    // Match MHCU item to existing film catalogue entry if available
-    const matchedFilm = allFilms.find(
-      f => f.title.toLowerCase() === mhcuItem.title.toLowerCase()
-    );
-    if (matchedFilm) {
-      setSelectedFilm(matchedFilm);
-    } else {
-      setSelectedFilm({
-        id: mhcuItem.id,
-        title: mhcuItem.title,
-        director: 'Maddock Films',
-        writer: 'Maddock Films',
-        description: mhcuItem.excerpt,
-        category: 'Supernatural Universe',
-        release_date: mhcuItem.date,
-        media: mhcuItem.images,
-        spotlight_image: mhcuItem.images[0],
-        trailer_url: mhcuItem.trailer_url || null,
-        brand_color: null,
-        flags: { mhcu: true },
-        cast_ids: []
-      });
-    }
-  };
-
   return (
     <main style={{ position: 'relative', overflowX: 'hidden' }}>
       <CustomCursor />
@@ -92,7 +64,7 @@ export default function Home() {
 
       <div className="divider"></div>
 
-      <MHCU onSelectMHCU={handleSelectMHCU} />
+      <Services />
 
       <div className="divider"></div>
 
