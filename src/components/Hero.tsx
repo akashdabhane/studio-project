@@ -85,7 +85,7 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
         <div className="hero-gradient"></div>
         <div className="hero-gradient-side"></div>
 
-        <div className="hero-content">
+        <div className="hero-content" key={currentFilm.id}>
           <div className="hero-label">
             Dir. {currentFilm.director} · Wri. {currentFilm.writer}
           </div>
@@ -117,7 +117,7 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
             <button onClick={handlePrev} aria-label="Previous Slide">←</button>
             <div className="slide-indicator">
               0{(currentIndex % films.length) + 1}
-              <span className="indicator-line"></span>
+              <span className="indicator-line" key={currentIndex}></span>
               0{films.length}
             </div>
             <button onClick={handleNext} aria-label="Next Slide">→</button>
