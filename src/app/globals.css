@@ -901,32 +901,55 @@ nav.scrolled {
 }
 
 .services-tab-btn {
+  position: relative;
   font-family: var(--font-barlow-family);
-  font-size: 11px;
-  letter-spacing: .2em;
+  font-size: 12px;
+  letter-spacing: .18em;
   text-transform: uppercase;
-  font-weight: 600;
-  padding: 10px 24px;
-  background: rgba(255, 255, 255, .05);
-  border: 1px solid rgba(255, 255, 255, .15);
-  color: #ccc;
-  border-radius: 30px;
+  font-weight: 700;
+  padding: 14px 30px;
+  background: rgba(20, 20, 20, .85);
+  color: #c5c5c5;
+  border: none;
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
   cursor: pointer;
   transition: all .3s var(--transition);
   white-space: nowrap;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
+}
+
+.services-tab-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, .2);
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
+  z-index: -1;
+  padding: 1px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: background .3s;
 }
 
 .services-tab-btn:hover {
-  border-color: var(--orange);
-  color: var(--orange2);
-  background: rgba(224, 92, 0, .1);
+  background: rgba(224, 92, 0, .15);
+  color: var(--white);
+}
+
+.services-tab-btn:hover::before {
+  background: var(--orange);
 }
 
 .services-tab-btn.active {
   background: var(--orange);
-  border-color: var(--orange);
-  color: var(--black);
-  box-shadow: 0 4px 20px rgba(224, 92, 0, .35);
+  color: #050505;
+  box-shadow: 0 4px 24px rgba(224, 92, 0, .45);
+}
+
+.services-tab-btn.active::before {
+  display: none;
 }
 
 /* ── Cards Grid ────────────────────────────────────────────────── */
@@ -1082,27 +1105,46 @@ nav.scrolled {
 }
 
 .services-load-more-btn {
+  position: relative;
   font-family: var(--font-barlow-family);
   font-size: 13px;
-  font-weight: 600;
-  letter-spacing: .15em;
+  font-weight: 700;
+  letter-spacing: .18em;
   text-transform: uppercase;
   padding: 16px 44px;
-  border-radius: 40px;
-  background: rgba(255, 255, 255, .05);
-  border: 1px solid rgba(255, 255, 255, .2);
+  background: rgba(20, 20, 20, .85);
   color: var(--white);
+  border: none;
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
   cursor: pointer;
   transition: all .35s var(--transition);
   box-shadow: 0 4px 20px rgba(0, 0, 0, .4);
 }
 
+.services-load-more-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, .25);
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
+  z-index: -1;
+  padding: 1px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: background .3s;
+}
+
 .services-load-more-btn:hover {
   background: var(--orange);
-  border-color: var(--orange);
-  color: var(--black);
+  color: #050505;
   box-shadow: 0 8px 30px rgba(224, 92, 0, .45);
   transform: translateY(-3px);
+}
+
+.services-load-more-btn:hover::before {
+  display: none;
 }
 
 /* ── Video Modal Player ────────────────────────────────────────── */
