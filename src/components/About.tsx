@@ -28,7 +28,7 @@ export default function About() {
           <p className="reveal reveal-delay-3">
             From gritty realities to sweeping mountain landscapes, every frame we put out is a declaration of intent. We don't just make films — we build stories that carry the weight of the places and people they come from.
           </p>
-          <div className="about-stats reveal reveal-delay-4">
+          {/* <div className="about-stats reveal reveal-delay-4">
             <div>
               <div className="stat-num">36</div>
               <div className="stat-label">Features</div>
@@ -41,7 +41,7 @@ export default function About() {
               <div className="stat-num">12</div>
               <div className="stat-label">Countries</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

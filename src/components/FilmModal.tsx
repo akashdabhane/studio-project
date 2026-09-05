@@ -122,7 +122,7 @@ export default function FilmModal({ film, onClose }: FilmModalProps) {
             )}
           </div>
 
-          {film.cast_members && film.cast_members.length > 0 && (
+          {/* {film.cast_members && film.cast_members.length > 0 && (
             <div className="modal-cast-section">
               <div className="crew-role">Featured Cast</div>
               <div className="cast-grid">
@@ -142,7 +142,7 @@ export default function FilmModal({ film, onClose }: FilmModalProps) {
                 ))}
               </div>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>

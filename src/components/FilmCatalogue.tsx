@@ -80,13 +80,13 @@ function FilmCard({ film, onSelectFilm }: { film: Film; onSelectFilm: (film: Fil
 
           <div className="spacer"></div>
 
-          {castNames ? (
+          {/* {castNames ? (
             <div className="film-card-footer">
               <div className="film-card-cast">
                 <strong>CAST:</strong> {castNames}
               </div>
             </div>
-          ) : null}
+          ) : null} */}
         </div>
       </div>
     </button>
