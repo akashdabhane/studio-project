@@ -148,9 +148,12 @@ function ServiceVideoCard({
 
 // ─── Main Services Section Component ────────────────────────────────────────
 
+const ITEMS_PER_PAGE = 12;
+
 export default function Services() {
   const [activeCategory, setActiveCategory] = useState<string>('ALL');
   const [selectedService, setSelectedService] = useState<ServiceItem | null>(null);
+  const [visibleCount, setVisibleCount] = useState<number>(ITEMS_PER_PAGE);
 
   // Dynamically extract and order available categories (PRE-PRODUCTION, PRODUCTION, POST-PRODUCTION)
   const availableCategories = useMemo(() => {
@@ -191,6 +194,18 @@ export default function Services() {
     });
   }, [activeCategory]);
 
+  // Reset pagination count back to initial 12 when active category tab changes
+  useEffect(() => {
+    setVisibleCount(ITEMS_PER_PAGE);
+  }, [activeCategory]);
+
+  const visibleServices = useMemo(
+    () => filteredServices.slice(0, visibleCount),
+    [filteredServices, visibleCount]
+  );
+
+  const hasMore = visibleCount < filteredServices.length;
+
   return (
     <section id="services">
       {/* Section Header */}
@@ -223,7 +238,7 @@ export default function Services() {
 
       {/* Video Cards Grid */}
       <div className="services-grid">
-        {filteredServices.map((service) => (
+        {visibleServices.map((service) => (
           <ServiceVideoCard
             key={service.id}
             service={service}
@@ -231,6 +246,18 @@ export default function Services() {
           />
         ))}
       </div>
+
+      {/* Load More Pagination Button */}
+      {hasMore && (
+        <div className="services-load-more-wrapper">
+          <button
+            className="services-load-more-btn"
+            onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
+          >
+            See More
+          </button>
+        </div>
+      )}
 
       {/* Video Modal Player */}
       <VideoModal
