@@ -23,10 +23,10 @@ export default function About() {
             Cinema Without <em>Compromise</em>
           </h2>
           <p className="reveal reveal-delay-2">
-            Vijesha Films is an independent production company committed to bold storytelling and authentic human experiences. We champion directors with a distinct vision and stories that demand to be told.
+            Vijesha Films is an independent production house founded by Raaj Dhoundiyal, a filmmaker with a strong background in cinematography, editing, writing, and color grading, trained at institutions including MAAC, SIFT, and ZIMA. We are committed to bold, authentic storytelling that gives voice to communities and experiences rarely seen on screen.
           </p>
           <p className="reveal reveal-delay-3">
-            From gritty dramas to sweeping epics, every frame we put on screen is a declaration of artistic intent. We don't make films — we make moments that outlast the credits.
+            From gritty realities to sweeping mountain landscapes, every frame we put out is a declaration of intent. We don't just make films — we build stories that carry the weight of the places and people they come from.
           </p>
           <div className="about-stats reveal reveal-delay-4">
             <div>

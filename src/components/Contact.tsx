@@ -46,10 +46,10 @@ export default function Contact() {
         <div className="contact-left">
           <div className="section-label reveal">Get In Touch</div>
           <h2 className="reveal reveal-delay-1">
-            Let's Make <span>History</span>
+            LET'S CRAFT <span>SOMETHING</span> HONEST
           </h2>
           <p className="reveal reveal-delay-2">
-            Have a story that demands to be told? Reach out to Vijesha Films for production inquiries, script submissions, press opportunities, or distribution.
+            Filmmaker, distributor, or collaborator — if you're carrying a story worth telling, we're listening. No idea is too unfinished to share.
           </p>
         </div>
 
