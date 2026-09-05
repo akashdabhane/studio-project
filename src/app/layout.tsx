@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: 'Vijesha Films — Cinema Without Compromise',
   description: 'Vijesha Films is an independent production company committed to bold storytelling and authentic human experiences.',
   icons: {
-    icon: '/assets/favicon2.jpg',
+    icon: '/assets/vijesha-films-logo.jpeg',
   },
 };
 
