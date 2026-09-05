@@ -10,11 +10,11 @@
     "brand_color": null,
     "category": null,
     "flags": {
-      "spotlight": false,
+      "spotlight": true,
       "upcoming": false,
       "mhcu": false
     },
-    "spotlight_image": null,
+    "spotlight_image": "mera-pahad-spotlight-1.jpg",
     "media": [
       "mera-pahad-1.jpg"
     ],
@@ -35,7 +35,7 @@
     "director": "Raaj Dhoundiyal",
     "writer": "Raaj Dhoundiyal",
     "description": "The untold story of nature, culture, and survival in the mountains of Uttarakhand — where migration tears families from their roots, and the fight to hold onto home becomes a story of exile, perseverance, and the enduring human spirit.",
-    "trailer_url": "https://www.youtube.com/watch?v=dLH1gmk9_iE",
+    "trailer_url": "",
     "brand_color": null,
     "category": null,
     "flags": {

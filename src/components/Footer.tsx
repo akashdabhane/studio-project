@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-logo">
-        <img src="/assets/vijesha-films-logo.jpg" alt="Vijesha Films" />
+        <img src="/assets/vijesha-films-logo.jpeg" alt="Vijesha Films" />
       </div>
       <div className="footer-copy">
         © {new Date().getFullYear()} Vijesha Films. All rights reserved.
