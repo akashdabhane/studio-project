@@ -1293,6 +1293,11 @@ nav.scrolled {
   color: var(--white);
   line-height: 1.2;
   margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .video-modal-desc {
@@ -1301,6 +1306,11 @@ nav.scrolled {
   color: #ccc;
   line-height: 1.6;
   margin-bottom: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .video-modal-yt-btn {
@@ -1345,6 +1355,14 @@ nav.scrolled {
 
   .video-modal-info {
     padding: 20px 24px 24px;
+  }
+
+  .video-modal-title {
+    -webkit-line-clamp: 2;
+  }
+
+  .video-modal-desc {
+    -webkit-line-clamp: 4;
   }
 }
 
