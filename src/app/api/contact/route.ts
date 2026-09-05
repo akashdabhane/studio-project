@@ -1,59 +1,69 @@
-import { NextResponse } from 'next/server';
-import { sendContactEmail } from '@/lib/mailer';
+import { NextRequest, NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
-const TOPICS = ['General Inquiry', 'Feature Development', 'Press & Media', 'Distribution'];
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-// Strip CR/LF so user input can't inject extra email headers.
-function sanitizeHeaderValue(value: string) {
-  return value.replace(/[\r\n]+/g, ' ').trim();
+function escapeHtml(value: string) {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
-export async function POST(request: Request) {
-  let body: unknown;
-  try {
-    body = await request.json();
-  } catch {
-    return NextResponse.json({ error: 'Invalid request body' }, { status: 400 });
+export async function POST(request: NextRequest) {
+  const { name, email, phone, subject, message } = await request.json();
+
+  if (!name || !email || !phone) {
+    return NextResponse.json(
+      { error: "Name, email and phone are required." },
+      { status: 400 }
+    );
   }
 
-  const { name, email, subject, message } = (body ?? {}) as Record<string, unknown>;
+  const emailUser = process.env.EMAIL_USER;
+  const emailPass = process.env.EMAIL_PASS;
 
-  if (
-    typeof name !== 'string' ||
-    typeof email !== 'string' ||
-    typeof subject !== 'string' ||
-    typeof message !== 'string' ||
-    !name.trim() ||
-    !email.trim() ||
-    !message.trim()
-  ) {
-    return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+  if (!emailUser || !emailPass) {
+    console.error("EMAIL_USER / EMAIL_PASS are not configured.");
+    return NextResponse.json(
+      { error: "Email service is not configured." },
+      { status: 500 }
+    );
   }
 
-  if (!EMAIL_RE.test(email)) {
-    return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
-  }
-
-  if (!TOPICS.includes(subject)) {
-    return NextResponse.json({ error: 'Invalid topic' }, { status: 400 });
-  }
-
-  if (name.length > 200 || message.length > 5000) {
-    return NextResponse.json({ error: 'Input too long' }, { status: 400 });
-  }
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: emailUser,
+      pass: emailPass,
+    },
+  });
 
   try {
-    await sendContactEmail({
-      name: sanitizeHeaderValue(name),
-      email: sanitizeHeaderValue(email),
-      subject,
-      message: message.trim(),
+    await transporter.sendMail({
+      from: `"${name}" <${emailUser}>`,
+      to: emailUser,
+      replyTo: email,
+      subject: subject
+        ? `New enquiry: ${subject}`
+        : "New enquiry from website contact form",
+      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject || "-"}\n\n${message || ""}`,
+      html: `
+        <p><strong>Name:</strong> ${escapeHtml(name)}</p>
+        <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+        <p><strong>Phone:</strong> ${escapeHtml(phone)}</p>
+        <p><strong>Subject:</strong> ${escapeHtml(subject || "-")}</p>
+        <p><strong>Message:</strong></p>
+        <p>${escapeHtml(message || "").replace(/\n/g, "<br/>")}</p>
+      `,
     });
-  } catch (error) {
-    console.error('Failed to send contact email:', error);
-    return NextResponse.json({ error: 'Failed to send message' }, { status: 502 });
-  }
 
-  return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error("Failed to send contact email", error);
+    return NextResponse.json(
+      { error: "Failed to send email. Please try again later." },
+      { status: 500 }
+    );
+  }
 }

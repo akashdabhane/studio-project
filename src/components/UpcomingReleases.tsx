@@ -36,7 +36,7 @@ function UpcomingItem({ film, onSelectFilm }: { film: Film; onSelectFilm: (film:
       <div className="carousel-track" style={{ transform: `translateX(-${slide * 100}%)` }}>
         {images.map((img, i) => (
           <picture key={i}>
-            <img src={`/assets/${img}`} alt={film.title} />
+            <img src={`/assets/${img}`} alt={film.title} width="100%" height="100%" style={{ objectFit: 'fill' }} />
           </picture>
         ))}
       </div>
