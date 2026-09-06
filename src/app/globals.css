@@ -318,8 +318,8 @@ nav.scrolled {
 
 .hero-title {
   font-family: var(--font-bebas-family);
-  font-weight: 400;
-  font-size: clamp(64px, 10vw, 140px);
+  font-weight: 200;
+  font-size: clamp(44px, 7vw, 90px);
   line-height: .9;
   letter-spacing: .02em;
   color: var(--white);
@@ -822,7 +822,6 @@ nav.scrolled {
 .upcoming-item {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 3/4;
   background: var(--grey2);
   display: block;
   border: none;
@@ -834,21 +833,19 @@ nav.scrolled {
 
 .carousel-track {
   display: flex;
-  height: 100%;
   transition: transform .6s cubic-bezier(.87, 0, .13, 1);
 }
 
 .carousel-track picture, .no-image {
   flex: 0 0 100%;
   width: 100%;
-  height: 100%;
   display: block;
 }
 
 .carousel-track picture img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
   transition: transform .6s cubic-bezier(.16, 1, .3, 1), filter .6s;
   filter: grayscale(40%) brightness(.65);
 }
@@ -1851,6 +1848,18 @@ footer {
   position: relative;
   background: #000;
   overflow: hidden;
+}
+
+.modal-media .carousel-track {
+  display: flex;
+  height: 100%;
+  transition: transform .6s cubic-bezier(.87, 0, .13, 1);
+}
+
+.modal-media .carousel-track picture {
+  flex: 0 0 auto;
+  height: 100%;
+  width: 100%;
 }
 
 .modal-media .carousel-track picture img {
