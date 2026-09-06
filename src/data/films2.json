@@ -43,7 +43,14 @@
       "upcoming": true,
       "mhcu": false
     },
-    "spotlight_image": "himalas-spotlight-1.jpg",
+    "spotlight_image": "hero-himlaans-1920X1080.jpg",
+    "spotlight_images": {
+      "ultrawide": "hero-himlaans-2560X1080.jpg",
+      "desktop4k": "hero-himlaans-3840X2160.jpg",
+      "desktop": "hero-himlaans-1920X1080.jpg",
+      "tablet": "hero-himlaans-2048X1536.jpg",
+      "mobile": "hero-himlaans-1080X1920.jpg"
+    },
     "media": [
       "himalas-1.jpg",
       "himalas-2.jpg",

@@ -18,6 +18,14 @@ export interface FilmFlags {
   mhcu?: boolean;
 }
 
+export interface ResponsiveSpotlightImages {
+  ultrawide?: string;
+  desktop4k?: string;
+  desktop?: string;
+  tablet?: string;
+  mobile?: string;
+}
+
 export interface Film {
   id: string;
   title: string;
@@ -30,6 +38,7 @@ export interface Film {
   category: string | null;
   flags: FilmFlags;
   spotlight_image?: string | null;
+  spotlight_images?: ResponsiveSpotlightImages | null;
   spotlight_order?: number | null;
   media: string[];
   cast_ids: string[];
@@ -63,6 +72,7 @@ export const allFilms: Film[] = (filmsJson2 as Film[]).map((film) => {
   return {
     ...film,
     spotlight_image,
+    spotlight_images: film.spotlight_images || null,
     media,
     cast_members
   };

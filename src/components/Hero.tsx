@@ -74,11 +74,34 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
     <>
       <section id="hero">
         <div className="hero-bg">
-          <picture>
+          <picture key={currentFilm.id}>
+            {currentFilm.spotlight_images?.ultrawide && (
+              <source
+                media="(min-aspect-ratio: 2/1)"
+                srcSet={`/assets/${currentFilm.spotlight_images.ultrawide}`}
+              />
+            )}
+            {currentFilm.spotlight_images?.mobile && (
+              <source
+                media="(max-width: 767px) and (orientation: portrait)"
+                srcSet={`/assets/${currentFilm.spotlight_images.mobile}`}
+              />
+            )}
+            {currentFilm.spotlight_images?.tablet && (
+              <source
+                media="(max-width: 1024px)"
+                srcSet={`/assets/${currentFilm.spotlight_images.tablet}`}
+              />
+            )}
+            {currentFilm.spotlight_images?.desktop4k && (
+              <source
+                media="(min-width: 2560px)"
+                srcSet={`/assets/${currentFilm.spotlight_images.desktop4k}`}
+              />
+            )}
             <img
-              src={`/assets/${currentFilm.spotlight_image || currentFilm.media[0]}`}
+              src={`/assets/${currentFilm.spotlight_images?.desktop || currentFilm.spotlight_image || currentFilm.media[0]}`}
               alt={currentFilm.title}
-              key={currentFilm.id}
             />
           </picture>
         </div>
