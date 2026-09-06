@@ -7,7 +7,7 @@ export default function About() {
         <div className="about-visual reveal">
           <picture>
             <img
-              src="/assets/raj-photo.jpg"
+              src="/assets/about-section-1536X1920.jpg"
               alt="About Vijesha Films - Raj"
               width="1536"
               height="2752"
