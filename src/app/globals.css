@@ -1045,6 +1045,11 @@ nav.scrolled {
   filter: brightness(.85) contrast(1.05);
 }
 
+.service-card-media.contain-media img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .service-video-card:hover .service-card-media img {
   transform: scale(1.08);
   filter: brightness(1);

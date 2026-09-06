@@ -103,6 +103,8 @@ function ServiceVideoCard({
     setImgSrc(`https://img.youtube.com/vi/${service.youtubeId}/hqdefault.jpg`);
   };
 
+  const isCustomThumbnail = Boolean(service.thumbnail && !service.thumbnail.includes('youtube.com'));
+
   return (
     <button
       className="service-video-card"
@@ -110,7 +112,7 @@ function ServiceVideoCard({
       aria-label={`Play video for ${service.title}`}
     >
       {/* Thumbnail Container */}
-      <div className="service-card-media">
+      <div className={`service-card-media ${isCustomThumbnail ? 'contain-media' : ''}`}>
         <img
           src={imgSrc}
           alt={service.title}
