@@ -60,7 +60,7 @@ function FilmCard({ film, onSelectFilm }: { film: Film; onSelectFilm: (film: Fil
           <div className="film-card-title">{film.title}</div>
           <div className="film-card-meta">
             {film.category && <span>{film.category}</span>}
-            <span>Feature</span>
+            {/* <span>Feature</span> */}
           </div>
 
           <p className="film-card-summary">{film.description}</p>

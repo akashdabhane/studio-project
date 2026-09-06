@@ -60,7 +60,7 @@ export default function Contact() {
               id="name"
               type="text"
               required
-              placeholder="e.g. Raj Dhoundiyal"
+              placeholder="e.g. Raaj Dhoundiyal"
               value={formData.name}
               onChange={e => setFormData({ ...formData, name: e.target.value })}
             />
