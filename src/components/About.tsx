@@ -23,10 +23,10 @@ export default function About() {
             Cinema Without <em>Compromise</em>
           </h2>
           <p className="reveal reveal-delay-2">
-            Vijesha Films is an independent production house founded by Raaj Dhoundiyal, a filmmaker with a strong background in cinematography, editing, writing, and color grading, trained at institutions including MAAC, SIFT, and ZIMA. We are committed to bold, authentic storytelling that gives voice to communities and experiences rarely seen on screen.
+            Vijesha Films is an independent production house helmed by filmmaker Raaj Dhoundiyal, known for raw, socially rooted storytelling that captures real lives with honesty and depth. A graduate of MAAC, SIFT, and ZIMA, Raaj has built a body of work recognized on multiple platforms — his short film GLAANI earned an Official Selection at the 5th Pune Short Film Festival (2015), while PARWAAZ EK UDAAN won "Best Trailer #1" at the IFP 2014 – 50 Hours Filmmaking Challenge.
           </p>
           <p className="reveal reveal-delay-3">
-            From gritty realities to sweeping mountain landscapes, every frame we put out is a declaration of intent. We don't just make films — we build stories that carry the weight of the places and people they come from.
+            The production house's upcoming feature documentary HIMLAANS — exploring nature, culture, and human struggle across the villages of the Uttarakhand Himalayas — is currently in post-production.
           </p>
           {/* <div className="about-stats reveal reveal-delay-4">
             <div>
