@@ -16,11 +16,11 @@
     },
     "spotlight_image": "mera-pahad-spotlight-1.jpg",
     "spotlight_images": {
-      "ultrawide": "mera-pahad-spotlight-1.jpg",
-      "desktop4k": "mera-pahad-spotlight-1.jpg",
-      "desktop": "mera-pahad-spotlight-1.jpg",
-      "tablet": "mera-pahad-spotlight-1.jpg",
-      "mobile": "mera-pahad-spotlight-1.jpg"
+      "ultrawide": "mera-pahad-2560X1080.jpg",
+      "desktop4k": "mera-pahad-3840X2160.jpg",
+      "desktop": "mera-pahad-1920X1080.jpg",
+      "tablet": "mera-pahad-2048X1536.jpg",
+      "mobile": "mera-pahad-1080X1920.jpg"
     },
     "media": [
       "mera-pahad-1.jpg"
@@ -68,10 +68,9 @@
     ],
     "media2": [
       "upcoming-film-1-1000X1500.jpg",
-      "upcoming-film-1-1000X1500.jpg",
-      "upcoming-film-1-1000X1500.jpg",
-      "upcoming-film-1-1000X1500.jpg",
-      "upcoming-film-1-1000X1500.jpg"
+      "upcoming-film-2-1000X1500.jpg",
+      "upcoming-film-3-1000X1500.jpg",
+      "upcoming-film-4-1000X1500.jpg"        
     ],
     "cast_ids": [
       "saif-ali-khan",
