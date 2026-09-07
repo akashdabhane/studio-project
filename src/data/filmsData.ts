@@ -41,6 +41,7 @@ export interface Film {
   spotlight_images?: ResponsiveSpotlightImages | null;
   spotlight_order?: number | null;
   media: string[];
+  media2: string[];
   cast_ids: string[];
   cast_members?: CastMember[];
 }

@@ -153,11 +153,11 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
 
       {/* Video Modal Player */}
       {activeTrailerUrl && (
-        <div className="video-overlay" onClick={() => setActiveTrailerUrl(null)}>
-          <button className="close-video-btn" onClick={() => setActiveTrailerUrl(null)}>
-            Close ✕
-          </button>
-          <div className="video-cover-wrapper" onClick={e => e.stopPropagation()}>
+        <div className="modal-backdrop" onClick={() => setActiveTrailerUrl(null)}>
+          <div className="trailer-modal-content" onClick={e => e.stopPropagation()}>
+            <button className="close-btn" onClick={() => setActiveTrailerUrl(null)} aria-label="Close trailer">
+              ✕
+            </button>
             <iframe
               src={getEmbedUrl(activeTrailerUrl)}
               title="Watch Trailer"

@@ -86,7 +86,6 @@ export default function FilmModal({ film, onClose }: FilmModalProps) {
                   </picture>
                 ))}
               </div>
-              <div className="modal-media-overlay"></div>
               {film.trailer_url && (
                 <button
                   className="play-btn"

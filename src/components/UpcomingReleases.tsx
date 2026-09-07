@@ -9,7 +9,7 @@ interface UpcomingProps {
 }
 
 function UpcomingItem({ film, onSelectFilm }: { film: Film; onSelectFilm: (film: Film) => void }) {
-  const images = film.media.length > 0 ? film.media : [film.spotlight_image].filter(Boolean) as string[];
+  const images = film.media2.length > 0 ? film.media2 : [film.spotlight_image].filter(Boolean) as string[];
   const [slide, setSlide] = useState(0);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
