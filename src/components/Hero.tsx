@@ -12,7 +12,7 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [activeTrailerUrl, setActiveTrailerUrl] = useState<string | null>(null);
 
-  const films = spotlightFilms.length > 0 ? spotlightFilms : [
+  const films: Film[] = spotlightFilms.length > 0 ? spotlightFilms : [
     {
       id: 'eetha',
       title: 'Eetha',
@@ -24,6 +24,7 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
       category: 'Historical, Biopic, Musical',
       flags: { spotlight: true },
       media: ['daf93eb13a04.C_Eh7kJK.jpeg', 'ccdb67c1de18.eafRkhPC.jpeg'],
+      media2: [],
       release_date: null,
       brand_color: null,
       cast_ids: []

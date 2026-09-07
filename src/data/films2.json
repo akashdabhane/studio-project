@@ -15,6 +15,13 @@
       "mhcu": false
     },
     "spotlight_image": "mera-pahad-spotlight-1.jpg",
+    "spotlight_images": {
+      "ultrawide": "mera-pahad-spotlight-1.jpg",
+      "desktop4k": "mera-pahad-spotlight-1.jpg",
+      "desktop": "mera-pahad-spotlight-1.jpg",
+      "tablet": "mera-pahad-spotlight-1.jpg",
+      "mobile": "mera-pahad-spotlight-1.jpg"
+    },
     "media": [
       "mera-pahad-1.jpg"
     ],
