@@ -86,9 +86,10 @@ export default function Contact() {
               onChange={e => setFormData({ ...formData, subject: e.target.value })}
             >
               <option value="General Inquiry">General Inquiry</option>
-              <option value="Feature Development">Feature Development</option>
+              <option value="Film/Project Inquiry">Film/Project Inquiry</option>
+              <option value="Collaboration">Collaboration</option>
               <option value="Press & Media">Press & Media</option>
-              <option value="Distribution">Distribution</option>
+              <option value="Distribution/Release">Distribution/Release</option>
             </select>
           </div>
 
