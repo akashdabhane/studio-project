@@ -13,7 +13,7 @@ export default function About() {
               height="2752"
             />
           </picture>
-          <div className="about-visual-accent"></div>
+          {/* <div className="about-visual-accent"></div> */}
           <div className="about-visual-label">Est. 2019</div>
         </div>
 
