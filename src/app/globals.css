@@ -1749,6 +1749,17 @@ footer {
   color: var(--orange);
 }
 
+@media (max-width: 450px) {
+  .footer-socials a {
+    font-family: var(--font-barlow-family);
+    font-size: 9px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    transition: color .3s;
+  }
+}
+
 @media (max-width: 900px) {
   footer {
     flex-direction: column;

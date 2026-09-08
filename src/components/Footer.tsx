@@ -10,17 +10,20 @@ export default function Footer() {
         © {new Date().getFullYear()} Vijesha Films. All rights reserved.
       </div>
       <div className="footer-socials">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/vijeshafilms" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+        <a href="https://instagram.com/vijeshafilms" target="_blank" rel="noopener noreferrer">
           Instagram
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://facebook.com/vijeshafilms" target="_blank" rel="noopener noreferrer">
+          Facebook
+        </a>
+        <a href="https://youtube.com/@vijeshafilms" target="_blank" rel="noopener noreferrer">
+          YouTube
+        </a>
+        <a href="https://x.com/VijeshaFilms" target="_blank" rel="noopener noreferrer">
           X/Twitter
-        </a>
-        <a href="https://letterboxd.com" target="_blank" rel="noopener noreferrer">
-          Letterboxd
-        </a>
-        <a href="https://vimeo.com" target="_blank" rel="noopener noreferrer">
-          Vimeo
         </a>
       </div>
     </footer>
