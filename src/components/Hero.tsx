@@ -110,8 +110,8 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
         <div className="hero-gradient-side"></div>
 
         <div className="hero-content" key={currentFilm.id}>
-          <div className="hero-label">
-            Dir. {currentFilm.director} · Wri. {currentFilm.writer}
+          <div className="hero-label" style={{ lineHeight: '1.1rem'}}>
+            Dir. {currentFilm.director} <br></br> Wri. {currentFilm.writer}
           </div>
           <h1 className="hero-title">{currentFilm.title}</h1>
           <p className="hero-tagline">{currentFilm.description}</p>
