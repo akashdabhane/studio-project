@@ -20,7 +20,7 @@ export default function About() {
         <div className="about-text">
           <div className="section-label reveal">Who We Are</div>
           <h2 className="reveal reveal-delay-1">
-            Cinema Without <em>Compromise</em>
+            Real Stories. <em>Honest Cinema.</em>
           </h2>
           <p className="reveal reveal-delay-2">
             Vijesha Films is an independent production house helmed by filmmaker Raaj Dhoundiyal, known for raw, socially rooted storytelling that captures real lives with honesty and depth. A graduate of MAAC, SIFT, and ZIMA, Raaj has built a body of work recognized on multiple platforms — his short film GLAANI earned an Official Selection at the 5th Pune Short Film Festival (2015), while PARWAAZ EK UDAAN won "Best Trailer #1" at the IFP 2014 – 50 Hours Filmmaking Challenge.
