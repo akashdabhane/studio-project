@@ -16,11 +16,11 @@
     },
     "spotlight_image": "mera-pahad-spotlight-1.jpg",
     "spotlight_images": {
-      "ultrawide": "mera-pahad-2560X1080.jpg",
-      "desktop4k": "mera-pahad-3840X2160.jpg",
-      "desktop": "mera-pahad-1920X1080.jpg",
-      "tablet": "mera-pahad-2048X1536.jpg",
-      "mobile": "mera-pahad-1080X1920.jpg"
+      "ultrawide": "hero-mera-pahad-2560X1080.jpg",
+      "desktop4k": "hero-mera-pahad-3840X2160.jpg",
+      "desktop": "hero-mera-pahad-1920X1080.jpg",
+      "tablet": "hero-mera-pahad-2048X1536.jpg",
+      "mobile": "hero-mera-pahad-1080X1920.jpg"
     },
     "media": [
       "mera-pahad-1.jpg"
