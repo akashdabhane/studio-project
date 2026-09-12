@@ -1755,20 +1755,8 @@ nav.scrolled {
   padding: 120px 0;
 }
 
-#contact:before {
-  content: "CONTACT";
-  position: absolute;
-  right: -40px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: var(--font-bebas-family);
-  font-weight: 400;
-  font-size: 240px;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, .03);
-  pointer-events: none;
-  white-space: nowrap;
-}
+
+
 
 .contact-inner {
   display: grid;
