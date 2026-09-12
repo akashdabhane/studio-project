@@ -17,10 +17,10 @@
     "spotlight_image": "mera-pahad-spotlight-1.jpg",
     "spotlight_images": {
       "ultrawide": "hero-mera-pahad-2560X1080.jpg",
-      "desktop4k": "hero-mera-pahad-3840X2160.jpg",
-      "desktop": "hero-mera-pahad-1920X1080.jpg",
-      "tablet": "hero-mera-pahad-2048X1536.jpg",
-      "mobile": "hero-mera-pahad-1080X1920.jpg"
+      "desktop4k": "hero2-mera-pahad-3840X2160-1.jpg",
+      "desktop": "hero2-mera-pahad-1920X1080-1.jpg",
+      "tablet": "hero2-mera-pahad-2048X1536-1.jpg",
+      "mobile": "hero2-mera-pahad-1080X1920-1.jpg"
     },
     "media": [
       "mera-pahad-1.jpg"
@@ -53,11 +53,11 @@
     },
     "spotlight_image": "hero-himlaans-1920X1080.jpg",
     "spotlight_images": {
-      "ultrawide": "hero-himlaans-2560X1080.jpg",
-      "desktop4k": "hero-himlaans-3840X2160.jpg",
-      "desktop": "hero-himlaans-1920X1080.jpg",
-      "tablet": "hero-himlaans-2048X1536.jpg",
-      "mobile": "hero-himlaans-1080X1920.jpg"
+      "ultrawide": "hero2-himlaans-2560X1080-5.jpg",
+      "desktop4k": "hero2-himlaans-3840X2160-5.jpg",
+      "desktop": "hero2-himlaans-1920X1080-5.jpg",
+      "tablet": "hero2-himlaans-2048X1536-5.jpg",
+      "mobile": "hero2-himlaans-1080X1920-1.jpg"
     },
     "media": [
       "himalas-1.jpg",
