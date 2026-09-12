@@ -6,6 +6,7 @@ const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Upcoming', href: '#upcoming' },
   { label: 'Services', href: '#services' },
+  { label: 'Our Work', href: '#our-work' },
   { label: 'All Films', href: '#films' },
   { label: 'Contact', href: '#contact' },
 ];

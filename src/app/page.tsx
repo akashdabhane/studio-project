@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import UpcomingReleases from '@/components/UpcomingReleases';
+import Work from '@/components/Work';
 import Services from '@/components/Services';
 import FilmCatalogue from '@/components/FilmCatalogue';
 import Contact from '@/components/Contact';
@@ -65,6 +66,10 @@ export default function Home() {
       <div className="divider"></div>
 
       <Services />
+
+      <div className="divider"></div>
+
+      <Work />
 
       <div className="divider"></div>
 
