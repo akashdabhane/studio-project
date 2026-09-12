@@ -31,7 +31,7 @@ const servicesData: ServicePillar[] = [
   },
   {
     num: '04',
-    title: 'DIGITAL CONTENT',
+    title: 'DIGITAL CONTENT & AI FILMS',
     tagline: 'Stories made to move at the speed of culture.',
     description:
       'We create sharp, engaging, and platform-first content that captures attention, builds brand presence, and turns everyday moments into memorable digital stories.',
