@@ -3,11 +3,11 @@
 import { useEffect, useState } from 'react';
 
 const navItems = [
-  { label: 'About', href: '#about', num: '01' },
-  { label: 'Upcoming', href: '#upcoming', num: '02' },
-  { label: 'Services', href: '#services', num: '03' },
-  { label: 'All Films', href: '#films', num: '04' },
-  { label: 'Contact', href: '#contact', num: '05' },
+  { label: 'About', href: '#about' },
+  { label: 'Upcoming', href: '#upcoming' },
+  { label: 'Services', href: '#services' },
+  { label: 'All Films', href: '#films' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Navbar() {
@@ -89,7 +89,6 @@ export default function Navbar() {
                 style={{ transitionDelay: mobileMenuOpen ? `${0.1 + index * 0.07}s` : '0s' }}
               >
                 <a href={item.href} onClick={handleNavClick}>
-                  <span className="mobile-nav-num">{item.num}</span>
                   <span className="mobile-nav-text">{item.label}</span>
                 </a>
               </li>
