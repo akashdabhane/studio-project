@@ -61,7 +61,7 @@ export default function Services() {
           >
             <div className="new-service-card-inner">
               <div className="new-service-top">
-                <span className="new-service-num">{item.num}</span>
+                {/* <span className="new-service-num">{item.num}</span> */}
                 <div className="new-service-line"></div>
               </div>
               <h3 className="new-service-title">{item.title}</h3>
