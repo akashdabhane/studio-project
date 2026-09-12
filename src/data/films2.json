@@ -53,11 +53,11 @@
     },
     "spotlight_image": "hero-himlaans-1920X1080.jpg",
     "spotlight_images": {
-      "ultrawide": "hero2-himlaans-2560X1080-5.jpg",
-      "desktop4k": "hero2-himlaans-3840X2160-5.jpg",
-      "desktop": "hero2-himlaans-1920X1080-5.jpg",
-      "tablet": "hero2-himlaans-2048X1536-5.jpg",
-      "mobile": "hero2-himlaans-1080X1920-1.jpg"
+      "ultrawide": "hero2-himlaans-2560X1080-1.jpg",
+      "desktop4k": "hero2-himlaans-3840X2160-1.jpg",
+      "desktop": "hero2-himlaans-1920X1080-1.jpg",
+      "tablet": "hero2-himlaans-2048X1536-1.jpg",
+      "mobile": "hero2-himlaans-1080X1920-3.jpg"
     },
     "media": [
       "himalas-1.jpg",
