@@ -96,8 +96,7 @@ export default function Navbar() {
             ))}
           </ul>
           <div className="mobile-menu-footer">
-            <p className="mobile-footer-tag">VIJESHA FILMS</p>
-            <p className="mobile-footer-sub">Cinematic Entertainment</p>
+            
           </div>
         </div>
       </div>

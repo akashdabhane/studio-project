@@ -26,7 +26,7 @@ const dmSerifDisplay = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Vijesha Films — Cinema Without Compromise',
+  title: 'Vijesha Films — Real Stories. Honest Cinema.',
   description: 'Vijesha Films is an independent production company committed to bold storytelling and authentic human experiences.',
   icons: {
     icon: '/assets/vijesha-films-logo.jpeg',
