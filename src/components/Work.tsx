@@ -201,7 +201,7 @@ export default function Work() {
       </div>
 
       {/* Category Tabs */}
-      <div className="services-tabs-wrapper reveal reveal-delay-2">
+      {/* <div className="services-tabs-wrapper reveal reveal-delay-2">
         <div className="services-tabs" role="tablist" aria-label="Work categories">
           {availableCategories.map((cat) => (
             <button
@@ -215,7 +215,7 @@ export default function Work() {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Video Cards Grid */}
       <div className="services-grid">
