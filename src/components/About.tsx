@@ -14,7 +14,7 @@ export default function About() {
             />
           </picture>
           {/* <div className="about-visual-accent"></div> */}
-          <div className="about-visual-label">Est. 2019</div>
+          {/* <div className="about-visual-label">Est. 2019</div> */}
         </div>
 
         <div className="about-text">

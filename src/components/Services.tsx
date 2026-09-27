@@ -31,11 +31,18 @@ const servicesData: ServicePillar[] = [
   },
   {
     num: '04',
-    title: 'DIGITAL CONTENT & AI FILMS',
-    tagline: 'Stories made to move at the speed of culture.',
+    title: 'Branded Content & Digital Films',
+    tagline: 'Where brand stories become digital experiences.',
     description:
-      'We create sharp, engaging, and platform-first content that captures attention, builds brand presence, and turns everyday moments into memorable digital stories.',
+      'We create cinematic branded content and digital films that connect ideas, brands and audiences through powerful visual storytelling.',
   },
+  {
+    num: '05',
+    title: 'AI Films',
+    tagline: 'Where imagination meets intelligent filmmaking.',
+    description:
+      'We create AI-powered films that blend cinematic storytelling, creative direction and generative technology to bring bold visual ideas to life.',
+  }
 ];
 
 export default function Services() {
