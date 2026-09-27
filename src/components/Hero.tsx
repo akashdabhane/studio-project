@@ -84,7 +84,7 @@ export default function Hero({ spotlightFilms, onExploreFilm }: HeroProps) {
             )}
             {currentFilm.spotlight_images?.mobile && (
               <source
-                media="(orientation: portrait)"
+                media="(max-width: 767px)"
                 srcSet={`/assets/${currentFilm.spotlight_images.mobile}`}
               />
             )}
