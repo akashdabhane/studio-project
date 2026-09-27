@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { margin: 0; background: #000; color: #fff; font-family: sans-serif; }
+  .grid { display: flex; gap: 20px; padding: 20px; flex-wrap: wrap; }
+  .card { border: 1px solid #333; }
+  .viewport { position: relative; width: 768px; height: 1024px; background: #111; overflow: hidden; }
+  .viewport img { width: 100%; height: 100%; }
+  .cover { object-fit: cover; }
+  .contain { object-fit: contain; }
+  .cover-pos { object-fit: cover; object-position: center center; }
+</style>
+</head>
+<body>
+  <h2>Tablet View (768x1024) Image Test</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>1080x1920 (Mobile image) - object-fit: contain</h3>
+      <div class="viewport">
+        <img class="contain" src="/assets/hero2-mera-pahad-1080X1920-1.jpg" />
+      </div>
+    </div>
+    <div class="card">
+      <h3>2048x1536 (Tablet image) - object-fit: contain</h3>
+      <div class="viewport">
+        <img class="contain" src="/assets/hero2-mera-pahad-2048X1536-1.jpg" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

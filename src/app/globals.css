@@ -714,7 +714,14 @@ nav.scrolled {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) and (min-width: 768px) {
+  .hero-bg img {
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media (max-width: 1024px) {
   .hero-content {
     left: 24px;
     bottom: 140px;
